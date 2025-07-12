@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 500 🟢",
+  "remarks": "Hamrah 650 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
