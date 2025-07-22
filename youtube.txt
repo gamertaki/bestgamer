@@ -48,7 +48,7 @@
       "settings": {
         "fragment": {
           "interval": "5-10",
-          "length": "20-50",
+          "length": "20-40",
           "packets": "tlshello"
         }
       },
