@@ -63,12 +63,12 @@
         "vnext": [
           {
             "address": "www.subsource.net",
-            "port": 2053,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "dbb3c682-8564-4c02-aec9-23ecf7981820",
+                "id": "1548030f-383c-4b66-89cd-dcdf0d39a054",
                 "level": 8,
                 "security": "auto"
               }
@@ -89,14 +89,14 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "paGes.dEv",
+          "serverName": "sUbTESt.ShiK5.workErs.DEv",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "arc-448.pages.dev"
+            "Host": "sUbTESt.ShiK5.workErs.DEv"
           },
-          "path": "/Mn0JqiF7whLmcIYX?ed=2560"
+          "path": "/?ed=2048"
         }
       },
       "tag": "proxy"
@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 1 🟢",
+  "remarks": "Hamrah 1 FIX 1 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
