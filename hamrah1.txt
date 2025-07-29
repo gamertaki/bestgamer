@@ -1,63 +1,53 @@
 {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "8.8.8.8"
-    ],
-    "tag": "dns"
+  "remarks": " Hamrah 1 FIX 2 🟢",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
   },
   "inbounds": [
     {
+      "tag": "socks",
       "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "socks-in"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "http-in"
-    },
-    {
       "listen": "127.0.0.1",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
       },
-      "tag": "dns-in"
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
+      "tag": "proxy",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -66,11 +56,12 @@
             "port": 2083,
             "users": [
               {
+                "id": "d40b4f89-2fe6-4337-9fba-7780277c0001",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
                 "encryption": "none",
-                "flow": "",
-                "id": "1548030f-383c-4b66-89cd-dcdf0d39a054",
-                "level": 8,
-                "security": "auto"
+                "flow": ""
               }
             ]
           }
@@ -79,87 +70,81 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "sockopt": {
-          "tcpKeepAliveIdle": 30
-        },
         "tlsSettings": {
           "allowInsecure": false,
+          "serverName": "gaLLFtR.taBlesSHIKHapro.SpaCE",
           "alpn": [
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "randomized",
-          "serverName": "sUbTESt.ShiK5.workErs.DEv",
+          "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "sUbTESt.ShiK5.workErs.DEv"
-          },
-          "path": "/?ed=2048"
+            "Host": "gaLLFtR.taBlesSHIKHapro.SpaCE"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "20-40",
+          "interval": "5-10"
         }
       },
-      "tag": "proxy"
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
     },
     {
-      "protocol": "dns",
-      "tag": "dns-out"
-    },
-    {
+      "tag": "direct",
       "protocol": "freedom",
-      "settings": {},
-      "tag": "direct"
+      "settings": {}
     },
     {
+      "tag": "block",
       "protocol": "blackhole",
       "settings": {
         "response": {
           "type": "http"
         }
-      },
-      "tag": "block"
+      }
     }
   ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "remarks": "Hamrah 1 FIX 1 🟢",
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
+    "domainStrategy": "AsIs",
     "rules": [
       {
+        "type": "field",
         "inboundTag": [
-          "dns-in"
+          "api"
         ],
-        "outboundTag": "dns-out",
-        "type": "field"
+        "outboundTag": "api",
+        "enabled": true
       },
       {
-        "inboundTag": [
-          "socks-in",
-          "http-in"
-        ],
-        "outboundTag": "dns-out",
-        "port": "53",
-        "type": "field"
-      },
-      {
-        "network": "tcp,udp",
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
         "outboundTag": "proxy",
-        "type": "field"
+        "enabled": true
       }
     ]
-  },
-  "stats": {}
+  }
 }
