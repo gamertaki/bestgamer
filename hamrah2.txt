@@ -88,7 +88,7 @@
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "randomized",
+          "fingerprint": "chrome",
           "serverName": "gentletnad.takPromashin.workErs.Dev",
           "show": false
         },
@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 2 🔴",
+  "remarks": "Hamrah 2 FIX 1 🔴",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
