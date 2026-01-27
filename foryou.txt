@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "For You FIX 7 🟢",
+  "remarks": "For You FIX 8 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
