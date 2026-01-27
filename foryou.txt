@@ -62,7 +62,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.1",
+            "address": "www.speedtest.net",
             "port": 443,
             "users": [
               {
