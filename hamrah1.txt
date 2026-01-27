@@ -63,7 +63,7 @@
         "vnext": [
           {
             "address": "172.67.73.216",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -88,7 +88,7 @@
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "randomized",
+          "fingerprint": "chrome",
           "serverName": "SnowyWiLdFLoweR1Fa8.BeSStForTKiGAmESZ.wOrKERS.DEV",
           "show": false
         },
@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 1 FIX 6 🟢",
+  "remarks": "Hamrah 1 FIX 7 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
