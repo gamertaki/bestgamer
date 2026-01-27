@@ -1,9 +1,24 @@
 {
+  "remarks": "H O O R - All NET (2 Server)💥",
+  "log": {
+    "loglevel": "warning"
+  },
   "dns": {
-    "queryStrategy": "UseIP",
     "servers": [
-      "8.8.8.8"
+      {
+        "address": "8.8.8.8",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "full:",
+          "full:www.speedtest.net"
+        ],
+        "skipFallback": true
+      }
     ],
+    "queryStrategy": "UseIP",
     "tag": "dns"
   },
   "inbounds": [
@@ -20,29 +35,12 @@
           "http",
           "tls"
         ],
-        "enabled": true
+        "enabled": true,
+        "routeOnly": true
       },
       "tag": "socks-in"
     },
     {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "http-in"
-    },
-    {
-      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -53,24 +51,19 @@
       "tag": "dns-in"
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "www.speedtest.net",
             "port": 443,
             "users": [
               {
-                "encryption": "none",
-                "flow": "",
                 "id": "316f720d-1aad-4342-9830-b3a688977630",
-                "level": 8,
-                "security": "auto"
+                "encryption": "none",
+                "level": 8
               }
             ]
           }
@@ -80,26 +73,230 @@
         "network": "ws",
         "security": "tls",
         "sockopt": {
-          "tcpKeepAliveIdle": 30
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
+          "fingerprint": "chrome",
           "alpn": [
-            "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
-          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sweet-term-5433.ceniyeb245.workers.dev"
-          },
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
         }
       },
-      "tag": "proxy"
+      "tag": "prox-1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+        }
+      },
+      "tag": "prox-2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.47.133",
+            "port": 443,
+            "users": [
+              {
+                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+        }
+      },
+      "tag": "prox-3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.44.123",
+            "port": 443,
+            "users": [
+              {
+                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
+        }
+      },
+      "tag": "prox-4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:310c::ac42:2c7b]",
+            "port": 443,
+            "users": [
+              {
+                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
+        }
+      },
+      "tag": "prox-5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.subsource.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "tcpFastOpen": true,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+        }
+      },
+      "tag": "prox-6"
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "5-5",
+          "length": "100-200",
+          "interval": "1-1"
+        },
+        "domainStrategy": "UseIPv4v6"
+      }
     },
     {
       "protocol": "dns",
@@ -107,7 +304,9 @@
     },
     {
       "protocol": "freedom",
-      "settings": {},
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
       "tag": "direct"
     },
     {
@@ -134,10 +333,17 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "H O O R 🛜",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "port": 53,
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
       {
         "inboundTag": [
           "dns-in"
@@ -147,19 +353,49 @@
       },
       {
         "inboundTag": [
-          "socks-in",
-          "http-in"
+          "remote-dns"
         ],
-        "outboundTag": "dns-out",
-        "port": "53",
+        "balancerTag": "all",
         "type": "field"
       },
       {
-        "network": "tcp,udp",
-        "outboundTag": "proxy",
+        "inboundTag": [
+          "dns"
+        ],
+        "outboundTag": "direct",
         "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
+        "balancerTag": "all",
+        "type": "field"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        },
+        "fallbackTag": "prox-2"
       }
     ]
   },
-  "stats": {}
+  "stats": {},
+  "observatory": {
+    "subjectSelector": [
+      "prox"
+    ],
+    "probeUrl": "https://www.gstatic.com/generate_204",
+    "probeInterval": "30s",
+    "enableConcurrency": true
+  }
 }
