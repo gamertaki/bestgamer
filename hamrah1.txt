@@ -62,7 +62,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.133",
+            "address": "172.67.73.135",
             "port": 443,
             "users": [
               {
@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 1 FIX 8 🟢",
+  "remarks": "Hamrah 1 FIX 9 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
