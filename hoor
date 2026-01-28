@@ -1,12 +1,12 @@
 {
-  "remarks": "H O O R - FIX 1 (2 Server)💥",
+  "remarks": "H O O R - FIX 2 (2 Server)💥",
   "log": {
     "loglevel": "warning"
   },
   "dns": {
     "servers": [
       {
-        "address": "https://doh.opendns.com/dns-query",
+        "address": "1.1.1.1",
         "tag": "remote-dns"
       },
       {
@@ -82,9 +82,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
         }
@@ -121,9 +121,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
         }
@@ -160,9 +160,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
         }
@@ -199,9 +199,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
         }
@@ -238,9 +238,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV"
         }
@@ -277,9 +277,9 @@
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "",
           "alpn": [
-            "http/1.1"
+            ""
           ],
           "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
         }
@@ -292,8 +292,8 @@
       "settings": {
         "fragment": {
           "packets": "5-5",
-          "length": "100-200",
-          "interval": "1-1"
+          "length": "20-50",
+          "interval": "5-10"
         },
         "domainStrategy": "UseIPv4v6"
       }
