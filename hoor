@@ -1,12 +1,12 @@
 {
-  "remarks": "H O O R - All NET (2 Server)💥",
+  "remarks": "H O O R - FIX 1 (2 Server)💥",
   "log": {
     "loglevel": "warning"
   },
   "dns": {
     "servers": [
       {
-        "address": "8.8.8.8",
+        "address": "https://doh.opendns.com/dns-query",
         "tag": "remote-dns"
       },
       {
@@ -135,7 +135,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.47.133",
+            "address": "172.67.73.135",
             "port": 443,
             "users": [
               {
@@ -174,7 +174,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.44.123",
+            "address": "172.67.73.135",
             "port": 443,
             "users": [
               {
@@ -252,7 +252,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.subsource.net",
+            "address": "www.speedtest.net",
             "port": 443,
             "users": [
               {
