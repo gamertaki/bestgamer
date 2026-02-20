@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - FIX 6 🌀",
+  "remarks": "H O O R - FIX 7 🌀",
   "log": {
     "loglevel": "warning"
   },
@@ -213,7 +213,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:310c::ac42:2c7b]",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
