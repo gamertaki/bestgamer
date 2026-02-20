@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - FIX 3 🌀",
+  "remarks": "H O O R - FIX 6 🌀",
   "log": {
     "loglevel": "warning"
   },
@@ -100,7 +100,7 @@
             "port": 443,
             "users": [
               {
-                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
                 "encryption": "none",
                 "level": 8
               }
@@ -116,8 +116,8 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
+          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -125,7 +125,7 @@
           "alpn": [
             ""
           ],
-          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv"
         }
       },
       "tag": "prox-2"
@@ -139,7 +139,7 @@
             "port": 443,
             "users": [
               {
-                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
                 "encryption": "none",
                 "level": 8
               }
@@ -155,8 +155,8 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
+          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -164,7 +164,7 @@
           "alpn": [
             ""
           ],
-          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv"
         }
       },
       "tag": "prox-3"
@@ -256,7 +256,7 @@
             "port": 443,
             "users": [
               {
-                "id": "5deeb5e9-f928-45c5-a656-61bd8a9f99ed",
+                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
                 "encryption": "none",
                 "level": 8
               }
@@ -272,8 +272,8 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "host": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
+          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -281,7 +281,7 @@
           "alpn": [
             ""
           ],
-          "serverName": "tesTWoRdBEST.kEBAxiM315.WorKeRs.DEV"
+          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv"
         }
       },
       "tag": "prox-6"
