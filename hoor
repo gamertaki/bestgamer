@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - FIX 7 🌀",
+  "remarks": "H O O R - FIX 8 🌀",
   "log": {
     "loglevel": "warning"
   },
@@ -256,7 +256,7 @@
             "port": 443,
             "users": [
               {
-                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
+                "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
                 "encryption": "none",
                 "level": 8
               }
@@ -272,8 +272,8 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
-          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "hidden-silence-147c.kingbestgame.workers.dev",
+          "path": "/eyJqdW5rIjoiYlRaVWFGR2dWV2p5biIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -281,7 +281,7 @@
           "alpn": [
             ""
           ],
-          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv"
+          "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV"
         }
       },
       "tag": "prox-6"
