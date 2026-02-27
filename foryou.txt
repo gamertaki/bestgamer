@@ -1,165 +1,145 @@
 {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1"
-    ],
-    "tag": "dns"
+  "remarks": "For You FIX 10 🟢",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
   },
   "inbounds": [
     {
+      "tag": "socks",
       "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "socks-in"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "http-in"
-    },
-    {
       "listen": "127.0.0.1",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
       },
-      "tag": "dns-in"
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
-      "protocol": "vless",
+      "tag": "proxy",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "www.speedtest.net",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "68b50c51-d88d-45e3-91a4-70386c100588",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "level": 1,
+            "flow": "",
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "Nova-Proxy",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "sockopt": {
-          "tcpKeepAliveIdle": 30
-        },
         "tlsSettings": {
-          "allowInsecure": false,
+          "allowInsecure": true,
+          "serverName": "SOlitARy-thUndeR-41bf.dAtakFRE-5a6.WoRkerS.DeV",
           "alpn": [
             "h2",
             "http/1.1"
           ],
           "fingerprint": "chrome",
-          "serverName": "SnowyWiLdFLoweR1Fa8.BeSStForTKiGAmESZ.wOrKERS.DEV",
           "show": false
         },
         "wsSettings": {
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "SnowyWiLdFLoweR1Fa8.BeSStForTKiGAmESZ.wOrKERS.DEV"
-          },
-          "path": "/Mn0JqiF7whLmcIYX?ed=2560"
+            "Host": "SOlitARy-thUndeR-41bf.dAtakFRE-5a6.WoRkerS.DeV"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "5-5",
+          "length": "20-50",
+          "interval": "5-10"
         }
       },
-      "tag": "proxy"
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
     },
     {
-      "protocol": "dns",
-      "tag": "dns-out"
-    },
-    {
+      "tag": "direct",
       "protocol": "freedom",
-      "settings": {},
-      "tag": "direct"
+      "settings": {}
     },
     {
+      "tag": "block",
       "protocol": "blackhole",
       "settings": {
         "response": {
           "type": "http"
         }
-      },
-      "tag": "block"
+      }
     }
   ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "remarks": "For You FIX 8 🟢",
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
+    "domainStrategy": "AsIs",
     "rules": [
       {
+        "type": "field",
         "inboundTag": [
-          "dns-in"
+          "api"
         ],
-        "outboundTag": "dns-out",
-        "type": "field"
+        "outboundTag": "api",
+        "enabled": true
       },
       {
-        "inboundTag": [
-          "socks-in",
-          "http-in"
-        ],
-        "outboundTag": "dns-out",
-        "port": "53",
-        "type": "field"
-      },
-      {
-        "network": "tcp,udp",
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
         "outboundTag": "proxy",
-        "type": "field"
+        "enabled": true
       }
     ]
-  },
-  "stats": {}
+  }
 }
