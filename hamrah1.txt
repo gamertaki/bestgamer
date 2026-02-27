@@ -68,7 +68,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "68b50c51-d88d-45e3-91a4-70386c100588",
+                "id": "824b4462-eefb-4e16-8cda-11fdac5dc135",
                 "level": 8,
                 "security": "auto"
               }
@@ -89,14 +89,14 @@
             "http/1.1"
           ],
           "fingerprint": "chrome",
-          "serverName": "SnowyWiLdFLoweR1Fa8.BeSStForTKiGAmESZ.wOrKERS.DEV",
+          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "SnowyWiLdFLoweR1Fa8.BeSStForTKiGAmESZ.wOrKERS.DEV"
+            "Host": "tiny-unit-d6cc.vahe7game.workers.dev"
           },
-          "path": "/Mn0JqiF7whLmcIYX?ed=2560"
+          "path": "/eyJqdW5rIjoiMHFjVmVmSTQ1NXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         }
       },
       "tag": "proxy"
@@ -134,7 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 1 FIX 9 🟢",
+  "remarks": "Hamrah 1 FIX 10 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
