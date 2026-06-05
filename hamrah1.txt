@@ -1,9 +1,23 @@
 {
+  "remarks": "Hamrah 1 FIX 11 🟢 ",
+  "log": {
+    "loglevel": "warning"
+  },
   "dns": {
-    "queryStrategy": "UseIP",
     "servers": [
-      "8.8.8.8"
+      {
+        "address": "https://8.8.8.8/dns-query",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "www.speedtest.net"
+        ],
+        "skipFallback": true
+      }
     ],
+    "queryStrategy": "UseIP",
     "tag": "dns"
   },
   "inbounds": [
@@ -20,29 +34,12 @@
           "http",
           "tls"
         ],
-        "enabled": true
+        "enabled": true,
+        "routeOnly": true
       },
       "tag": "socks-in"
     },
     {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "http-in"
-    },
-    {
-      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -53,24 +50,19 @@
       "tag": "dns-in"
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.135",
+            "address": "172.67.73.136",
             "port": 443,
             "users": [
               {
-                "encryption": "none",
-                "flow": "",
                 "id": "824b4462-eefb-4e16-8cda-11fdac5dc135",
-                "level": 8,
-                "security": "auto"
+                "encryption": "none",
+                "level": 8
               }
             ]
           }
@@ -80,23 +72,19 @@
         "network": "ws",
         "security": "tls",
         "sockopt": {
-          "tcpKeepAliveIdle": 30
+          "domainStrategy": "UseIPv4v6"
+        },
+        "wsSettings": {
+          "host": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
+          "path": "/eyJqdW5rIjoiMHFjVmVmSTQ1NXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
+          "fingerprint": "chrome",
           "alpn": [
-            "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
-          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tiny-unit-d6cc.vahe7game.workers.dev"
-          },
-          "path": "/eyJqdW5rIjoiMHFjVmVmSTQ1NXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV"
         }
       },
       "tag": "proxy"
@@ -107,7 +95,9 @@
     },
     {
       "protocol": "freedom",
-      "settings": {},
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
       "tag": "direct"
     },
     {
@@ -134,7 +124,6 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Hamrah 1 FIX 10 🟢",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -147,15 +136,25 @@
       },
       {
         "inboundTag": [
-          "socks-in",
-          "http-in"
+          "remote-dns"
         ],
-        "outboundTag": "dns-out",
-        "port": "53",
+        "outboundTag": "proxy",
         "type": "field"
       },
       {
-        "network": "tcp,udp",
+        "inboundTag": [
+          "dns"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
         "outboundTag": "proxy",
         "type": "field"
       }
