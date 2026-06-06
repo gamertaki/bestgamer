@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR PRO FIX 12 🛜",
+  "remarks": "HOOR FIX 13 🛜",
   "version": {
     "min": "25.10.15"
   },
@@ -499,7 +499,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "15s",
+    "probeInterval": "10s",
     "enableConcurrency": true
   },
   "policy": {
