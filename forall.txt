@@ -1,12 +1,15 @@
 {
-  "remarks": "F O R - A L L - FIX 1 🟢⚪🔴",
+  "remarks": "F O R - A L L - FIX 2 🟢⚪🔴",
+  "version": {
+    "min": "26.2.6"
+  },
   "log": {
     "loglevel": "warning"
   },
   "dns": {
     "servers": [
       {
-        "address": "1.1.1.1",
+        "address": "https://8.8.8.8/dns-query",
         "tag": "remote-dns"
       },
       {
@@ -23,12 +26,12 @@
   },
   "inbounds": [
     {
+      "listen": "0.0.0.0",
       "port": 10808,
-      "protocol": "socks",
+      "protocol": "mixed",
       "settings": {
         "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
+        "udp": true
       },
       "sniffing": {
         "destOverride": [
@@ -38,9 +41,10 @@
         "enabled": true,
         "routeOnly": true
       },
-      "tag": "socks-in"
+      "tag": "mixed-in"
     },
     {
+      "listen": "0.0.0.0",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -62,8 +66,7 @@
             "users": [
               {
                 "id": "31b80b40-d0aa-447e-b7d3-12cda8ce0c27",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -71,38 +74,41 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "damp-lake-a3f3.takin100.workers.dev",
           "path": "/eyJqdW5rIjoiYVRJMTVyUXFKTCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-1"
+      "tag": "proxy-1"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.135",
+            "address": "104.17.121.74",
             "port": 443,
             "users": [
               {
                 "id": "31b80b40-d0aa-447e-b7d3-12cda8ce0c27",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -110,25 +116,29 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "damp-lake-a3f3.takin100.workers.dev",
           "path": "/eyJqdW5rIjoiYVRJMTVyUXFKTCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-2"
+      "tag": "proxy-2"
     },
     {
       "protocol": "vless",
@@ -140,8 +150,7 @@
             "users": [
               {
                 "id": "8db98bcd-7c2c-4c04-bf60-e830d4720c43",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -149,38 +158,41 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "morning-feather-f844.takin200.workers.dev",
           "path": "/eyJqdW5rIjoiVUlDZ2RRWnVuVFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-3"
+      "tag": "proxy-3"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.135",
+            "address": "104.17.121.75",
             "port": 443,
             "users": [
               {
                 "id": "8db98bcd-7c2c-4c04-bf60-e830d4720c43",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -188,25 +200,29 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "morning-feather-f844.takin200.workers.dev",
           "path": "/eyJqdW5rIjoiVUlDZ2RRWnVuVFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-4"
+      "tag": "proxy-4"
     },
     {
       "protocol": "vless",
@@ -218,8 +234,7 @@
             "users": [
               {
                 "id": "fe3f3823-0012-428a-bc9e-37fd8aafc139",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -227,38 +242,41 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "billowing-silence-8c1f.takin300.workers.dev",
           "path": "/eyJqdW5rIjoiMDNtVWRqZXNYaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-5"
+      "tag": "proxy-5"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.9",
+            "address": "104.16.75.127",
             "port": 443,
             "users": [
               {
                 "id": "fe3f3823-0012-428a-bc9e-37fd8aafc139",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -266,40 +284,291 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "tcpFastOpen": true,
-          "dialerProxy": "fragment"
-        },
         "wsSettings": {
           "host": "billowing-silence-8c1f.takin300.workers.dev",
           "path": "/eyJqdW5rIjoiMDNtVWRqZXNYaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "",
+          "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV",
+          "fingerprint": "chrome",
           "alpn": [
-            ""
-          ],
-          "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV"
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "prox-6"
+      "tag": "proxy-6"
     },
     {
-      "tag": "fragment",
-      "protocol": "freedom",
+      "protocol": "vless",
       "settings": {
-        "fragment": {
-          "packets": "5-5",
-          "length": "20-50",
-          "interval": "5-10"
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoiNUQ5U3VySklFYkhocCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
-        "domainStrategy": "UseIPv4v6"
-      }
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "moRnING-UNit-7a2e.foRDgame.woRkERs.dEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.97.3",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoiUmRoVnhGbTZzOHNzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "morNiNg-uNIt-7A2e.foRDgAMe.WorkerS.dEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoiNnZHNk9MamRNZkJBY04wIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "MorninG-unit-7a2E.fORdGaMe.worKErS.dEV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "23.227.60.167",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoiR2VvTEpWVXBxaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "MoRNIng-UNit-7a2e.FORdgAmE.wOrkeRs.dEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "199.181.197.23",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoiSnkyYjZTaFYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mORnINg-UNiT-7A2E.FoRDGamE.woRkERS.dEV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.111.123",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2109636-2995-4016-a3b3-dd6f0462161c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "morning-unit-7a2e.fordgame.workers.dev",
+          "path": "/eyJqdW5rIjoicHExU0R5T0ljb3NtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mornIng-UniT-7A2e.fOrDgamE.woRKERs.dEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-12"
     },
     {
       "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
       "tag": "dns-out"
     },
     {
@@ -319,26 +588,12 @@
       "tag": "block"
     }
   ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "inboundTag": [
-          "socks-in"
+          "mixed-in"
         ],
         "port": 53,
         "outboundTag": "dns-out",
@@ -355,12 +610,26 @@
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all",
+        "balancerTag": "all-proxies",
         "type": "field"
       },
       {
         "inboundTag": [
           "dns"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -372,30 +641,44 @@
       },
       {
         "network": "tcp",
-        "balancerTag": "all",
+        "balancerTag": "all-proxies",
         "type": "field"
       }
     ],
     "balancers": [
       {
-        "tag": "all",
+        "tag": "all-proxies",
         "selector": [
-          "prox"
+          "proxy"
         ],
         "strategy": {
           "type": "leastPing"
         },
-        "fallbackTag": "prox-2"
+        "fallbackTag": "proxy-2"
       }
     ]
   },
-  "stats": {},
   "observatory": {
     "subjectSelector": [
-      "prox"
+      "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
     "probeInterval": "30s",
     "enableConcurrency": true
-  }
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "connIdle": 300,
+        "handshake": 4,
+        "uplinkOnly": 1,
+        "downlinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "stats": {}
 }
