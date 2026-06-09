@@ -1,213 +1,141 @@
 {
-  "remarks": "Modem All 2 🍎",
-  "version": {
-    "min": "26.2.6"
-  },
-  "log": {
-    "loglevel": "warning"
-  },
-  "dns": {
-    "servers": [
-      {
-        "address": "https://8.8.8.8/dns-query",
-        "tag": "remote-dns"
-      },
-      {
-        "address": "8.8.8.8",
-        "domains": [
-          "full:www.speedtest.net"
-        ],
-        "skipFallback": true
-      }
+    "dns": {
+        "hosts": {
+            "domain:googleapis.cn": "googleapis.com"
+        },
+        "servers": [
+            "1.1.1.1"
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "userLevel": 8
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls"
+                ],
+                "enabled": true
+            },
+            "tag": "socks"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "userLevel": 8
+            },
+            "tag": "http"
+        }
     ],
-    "queryStrategy": "UseIP",
-    "tag": "dns"
-  },
-  "inbounds": [
-    {
-      "listen": "0.0.0.0",
-      "port": 10808,
-      "protocol": "mixed",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true,
-        "routeOnly": true
-      },
-      "tag": "mixed-in"
+    "log": {
+        "loglevel": "warning"
     },
-    {
-      "listen": "0.0.0.0",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
-      },
-      "tag": "dns-in"
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.speedtest.net",
-            "port": 2053,
-            "users": [
-              {
-                "id": "90dc7c7d-b049-4e05-86ad-0e838332b817",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "wallgamesbing.pAges.Dev",
-          "path": "/?ed=2048"
+    "outbounds": [
+        {
+            "mux": {
+                "concurrency": -1,
+                "enabled": false,
+                "xudpConcurrency": 8,
+                "xudpProxyUDP443": ""
+            },
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "www.speedtest.net",
+                        "port": 2083,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "",
+                                "id": "90dc7c7d-b049-4e05-86ad-0e838332b817",
+                                "level": 8,
+                                "security": "auto"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": false,
+                    "fingerprint": "",
+                    "publicKey": "",
+                    "serverName": "pAgeS.DeV",
+                    "shortId": "",
+                    "show": false,
+                    "spiderX": ""
+                },
+                "wsSettings": {
+                    "headers": {
+                        "Host": "wallgamesbing.pAges.Dev"
+                    },
+                    "path": "/?ed=2048"
+                },
+                "sockopt": {
+                    "dialerProxy": "fragment",
+                    "tcpKeepAliveIdle": 100,
+                    "tcpNoDelay": true
+                }
+            },
+            "tag": "proxy"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "wallgamesbing.pAges.Dev",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "length": "20-50",
-                "delay": "5-10"
-              }
+        {
+            "tag": "fragment",
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs",
+                "fragment": {
+                    "packets": "tlshello",
+                    "length": "20-50",
+                    "interval": "5-10"
+                }
+            },
+            "streamSettings": {
+                "sockopt": {
+                    "tcpKeepAliveIdle": 100,
+                    "tcpNoDelay": true
+                }
             }
-          ]
+        },
+        {
+            "protocol": "freedom",
+            "settings": {},
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
         }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "dns",
-      "settings": {
+    ],
+"remarks": "Modem All 🍎",
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
         "rules": [
-          {
-            "action": "hijack"
-          }
+            {
+                "ip": [
+                    "1.1.1.1"
+                ],
+                "outboundTag": "proxy",
+                "port": "53",
+                "type": "field"
+            }
         ]
-      },
-      "tag": "dns-out"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
     }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "inboundTag": [
-          "mixed-in"
-        ],
-        "port": 53,
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "remote-dns"
-        ],
-        "outboundTag": "proxy",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "network": "tcp",
-        "outboundTag": "proxy",
-        "type": "field"
-      }
-    ]
-  },
-  "policy": {
-    "levels": {
-      "0": {
-        "connIdle": 300,
-        "handshake": 4,
-        "uplinkOnly": 1,
-        "downlinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "stats": {}
 }
