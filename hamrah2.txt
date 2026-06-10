@@ -1,23 +1,9 @@
 {
-  "remarks": "Hamrah 2 FIX 3 🔴 ",
-  "log": {
-    "loglevel": "warning"
-  },
   "dns": {
-    "servers": [
-      {
-        "address": "https://8.8.8.8/dns-query",
-        "tag": "remote-dns"
-      },
-      {
-        "address": "8.8.8.8",
-        "domains": [
-          "www.speedtest.net"
-        ],
-        "skipFallback": true
-      }
-    ],
     "queryStrategy": "UseIP",
+    "servers": [
+      "8.8.8.8"
+    ],
     "tag": "dns"
   },
   "inbounds": [
@@ -34,12 +20,29 @@
           "http",
           "tls"
         ],
-        "enabled": true,
-        "routeOnly": true
+        "enabled": true
       },
       "tag": "socks-in"
     },
     {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "http-in"
+    },
+    {
+      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -50,19 +53,24 @@
       "tag": "dns-in"
     }
   ],
+  "log": {
+    "loglevel": "warning"
+  },
   "outbounds": [
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.3",
-            "port": 2053,
+            "address": "www.speedtest.net",
+            "port": 443,
             "users": [
               {
-                "id": "da236b71-ed35-483e-91ca-d37fba7cf30c",
                 "encryption": "none",
-                "level": 8
+                "flow": "",
+                "id": "da236b71-ed35-483e-91ca-d37fba7cf30c",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
@@ -72,19 +80,23 @@
         "network": "ws",
         "security": "tls",
         "sockopt": {
-          "domainStrategy": "UseIPv4v6"
-        },
-        "wsSettings": {
-          "host": "gentletnad.takPromashin.workErs.Dev",
-          "path": "/Mn0JqiF7whLmcIYX?ed=2560"
+          "tcpKeepAliveIdle": 30
         },
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
           "alpn": [
+            "h2",
             "http/1.1"
           ],
-          "serverName": "gentletnad.takPromashin.workErs.Dev"
+          "fingerprint": "chrome",
+          "serverName": "gentletnad.takPromashin.workErs.Dev",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gentletnad.takPromashin.workErs.Dev"
+          },
+          "path": "/Mn0JqiF7whLmcIYX?ed=2560"
         }
       },
       "tag": "proxy"
@@ -95,9 +107,7 @@
     },
     {
       "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
+      "settings": {},
       "tag": "direct"
     },
     {
@@ -124,6 +134,7 @@
       "statsOutboundDownlink": true
     }
   },
+  "remarks": "Hamrah 2 FIX 4 MahsaNG 🔴",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -136,25 +147,15 @@
       },
       {
         "inboundTag": [
-          "remote-dns"
+          "socks-in",
+          "http-in"
         ],
-        "outboundTag": "proxy",
+        "outboundTag": "dns-out",
+        "port": "53",
         "type": "field"
       },
       {
-        "inboundTag": [
-          "dns"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "network": "tcp",
+        "network": "tcp,udp",
         "outboundTag": "proxy",
         "type": "field"
       }
