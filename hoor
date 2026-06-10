@@ -1,7 +1,7 @@
 {
-  "remarks": "HOOR FIX 13 🛜",
+  "remarks": "HOOR FIX 17 🛜",
   "version": {
-    "min": "25.10.15"
+    "min": "26.2.6"
   },
   "log": {
     "loglevel": "warning"
@@ -28,7 +28,7 @@
     {
       "listen": "0.0.0.0",
       "port": 10808,
-      "protocol": "socks",
+      "protocol": "mixed",
       "settings": {
         "auth": "noauth",
         "udp": true
@@ -84,8 +84,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -104,7 +103,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.84.182.51",
+            "address": "104.17.121.74",
             "port": 443,
             "users": [
               {
@@ -127,8 +126,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -170,8 +168,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -190,7 +187,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.205.205",
+            "address": "104.17.121.75",
             "port": 443,
             "users": [
               {
@@ -213,8 +210,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -234,7 +230,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
@@ -256,8 +252,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -276,8 +271,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.229.21",
-            "port": 2053,
+            "address": "104.16.75.127",
+            "port": 443,
             "users": [
               {
                 "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
@@ -299,8 +294,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -320,7 +314,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
@@ -342,8 +336,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -362,8 +355,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.47.69",
-            "port": 2053,
+            "address": "188.114.97.3",
+            "port": 443,
             "users": [
               {
                 "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
@@ -385,8 +378,7 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "allowInsecure": false
+          ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -401,9 +393,181 @@
       "tag": "proxy-8"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "23.227.60.167",
+            "port": 443,
+            "users": [
+              {
+                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
+          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "199.181.197.23",
+            "port": 443,
+            "users": [
+              {
+                "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "hidden-silence-147c.kingbestgame.workers.dev",
+          "path": "/eyJqdW5rIjoiYlRaVWFGR2dWV2p5biIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.111.123",
+            "port": 443,
+            "users": [
+              {
+                "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "aged-paper-653e.tinygamew.workers.dev",
+          "path": "/eyJqdW5rIjoiTkVyRFhZMlNRM2wiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-12"
+    },
+    {
       "protocol": "dns",
       "settings": {
-        "nonIPQuery": "reject"
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
       },
       "tag": "dns-out"
     },
