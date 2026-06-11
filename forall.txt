@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - FIX 3 🟢⚪🔴",
+  "remarks": "F O R - A L L - FIX 4 🟢⚪🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -355,7 +355,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.97.6",
             "port": 443,
             "users": [
               {
@@ -397,7 +397,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "194.156.26.1",
             "port": 443,
             "users": [
               {
