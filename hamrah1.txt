@@ -1,5 +1,8 @@
 {
-  "remarks": "Hamrah 1 FIX 11 🟢 ",
+  "remarks": "Hamrah 1 FIX 12 🟢",
+  "version": {
+    "min": "26.2.6"
+  },
   "log": {
     "loglevel": "warning"
   },
@@ -8,13 +11,6 @@
       {
         "address": "https://8.8.8.8/dns-query",
         "tag": "remote-dns"
-      },
-      {
-        "address": "8.8.8.8",
-        "domains": [
-          "www.speedtest.net"
-        ],
-        "skipFallback": true
       }
     ],
     "queryStrategy": "UseIP",
@@ -22,12 +18,12 @@
   },
   "inbounds": [
     {
+      "listen": "0.0.0.0",
       "port": 10808,
-      "protocol": "socks",
+      "protocol": "mixed",
       "settings": {
         "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
+        "udp": true
       },
       "sniffing": {
         "destOverride": [
@@ -37,9 +33,10 @@
         "enabled": true,
         "routeOnly": true
       },
-      "tag": "socks-in"
+      "tag": "mixed-in"
     },
     {
+      "listen": "0.0.0.0",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -61,8 +58,7 @@
             "users": [
               {
                 "id": "824b4462-eefb-4e16-8cda-11fdac5dc135",
-                "encryption": "none",
-                "level": 8
+                "encryption": "none"
               }
             ]
           }
@@ -70,27 +66,39 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "domainStrategy": "UseIPv4v6"
-        },
         "wsSettings": {
           "host": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
           "path": "/eyJqdW5rIjoiMHFjVmVmSTQ1NXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
+          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ],
-          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
       "tag": "proxy"
     },
     {
       "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
       "tag": "dns-out"
     },
     {
@@ -110,23 +118,17 @@
       "tag": "block"
     }
   ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
+      {
+        "inboundTag": [
+          "mixed-in"
+        ],
+        "port": 53,
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
       {
         "inboundTag": [
           "dns-in"
@@ -149,6 +151,20 @@
         "type": "field"
       },
       {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
         "network": "udp",
         "outboundTag": "block",
         "type": "field"
@@ -159,6 +175,20 @@
         "type": "field"
       }
     ]
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "connIdle": 300,
+        "handshake": 4,
+        "uplinkOnly": 1,
+        "downlinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
   },
   "stats": {}
 }
