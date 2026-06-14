@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR FIX 18 🛜",
+  "remarks": "HOOR FIX 20 🛜",
   "version": {
     "min": "26.2.6"
   },
@@ -271,7 +271,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.75.127",
+            "address": "104.16.75.128",
             "port": 443,
             "users": [
               {
@@ -355,7 +355,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.6",
+            "address": "199.181.197.16",
             "port": 443,
             "users": [
               {
@@ -523,7 +523,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.111.123",
+            "address": "45.130.125.79",
             "port": 443,
             "users": [
               {
