@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR FIX 22 🛜",
+  "remarks": "HOOR FIX 26 🛜",
   "version": {
     "min": "26.2.6"
   },
@@ -149,7 +149,7 @@
             "port": 443,
             "users": [
               {
-                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
+                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
                 "encryption": "none"
               }
             ]
@@ -159,12 +159,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
-          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
+          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv",
+          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -191,7 +191,7 @@
             "port": 443,
             "users": [
               {
-                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
+                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
                 "encryption": "none"
               }
             ]
@@ -201,12 +201,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
-          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
+          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv",
+          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -443,7 +443,7 @@
             "port": 443,
             "users": [
               {
-                "id": "56eceac2-cf58-4299-af89-8e719bfd16e8",
+                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
                 "encryption": "none"
               }
             ]
@@ -453,12 +453,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "cool-moon-d956.ceniyeb245-2e0.workers.dev",
-          "path": "/eyJqdW5rIjoiTjZTdG83REZLWkRvbjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
+          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "cOoL-MoON-d956.CeNIYEB245-2e0.workErS.DEv",
+          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
