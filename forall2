@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 2 🟢⚪🔴",
+  "remarks": "F O R - A L L 2 - FIX 3 🟢⚪🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -82,7 +82,7 @@
         "tlsSettings": {
           "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -136,7 +136,7 @@
         "tlsSettings": {
           "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -190,7 +190,7 @@
         "tlsSettings": {
           "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -244,7 +244,7 @@
         "tlsSettings": {
           "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -298,7 +298,7 @@
         "tlsSettings": {
           "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -352,7 +352,7 @@
         "tlsSettings": {
           "serverName": "bILlOWiNg-silENCE-8C1F.tAkin300.wOrKeRs.deV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -406,7 +406,7 @@
         "tlsSettings": {
           "serverName": "SuPer-saLAd-dE90.tAkin500.WoRKERS.deV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -460,7 +460,7 @@
         "tlsSettings": {
           "serverName": "SuPer-saLAd-dE90.tAkin500.WoRKERS.deV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -514,7 +514,7 @@
         "tlsSettings": {
           "serverName": "WaNDerIng-bAsE-a46D.FOrDSgtSS5.Workers.dev",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -568,7 +568,7 @@
         "tlsSettings": {
           "serverName": "WaNDerIng-bAsE-a46D.FOrDSgtSS5.Workers.dev",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -622,7 +622,7 @@
         "tlsSettings": {
           "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
@@ -676,7 +676,7 @@
         "tlsSettings": {
           "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
-          "alpn": [
+          "": [
             ""
           ]
         },
