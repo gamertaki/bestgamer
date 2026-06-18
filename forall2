@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 🟢⚪🔴",
+  "remarks": "F O R - A L L 2 - FIX 2 🟢⚪🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -173,7 +173,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8db98bcd-7c2c-4c04-bf60-e830d4720c43",
+                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
                 "encryption": "none"
               }
             ]
@@ -183,12 +183,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "morning-feather-f844.takin200.workers.dev",
-          "path": "/eyJqdW5rIjoiVUlDZ2RRWnVuVFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "rapid-recipe-5173.takin2000a.workers.dev",
+          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev",
+          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
           "alpn": [
             ""
@@ -227,7 +227,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8db98bcd-7c2c-4c04-bf60-e830d4720c43",
+                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
                 "encryption": "none"
               }
             ]
@@ -237,12 +237,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "morning-feather-f844.takin200.workers.dev",
-          "path": "/eyJqdW5rIjoiVUlDZ2RRWnVuVFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "rapid-recipe-5173.takin2000a.workers.dev",
+          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev",
+          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
           "alpn": [
             ""
@@ -659,7 +659,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8db98bcd-7c2c-4c04-bf60-e830d4720c43",
+                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
                 "encryption": "none"
               }
             ]
@@ -669,12 +669,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "morning-feather-f844.takin200.workers.dev",
-          "path": "/eyJqdW5rIjoiVUlDZ2RRWnVuVFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "rapid-recipe-5173.takin2000a.workers.dev",
+          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "MORNIng-FeaThER-f844.takin200.WoRkErs.Dev",
+          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
           "fingerprint": "firefox",
           "alpn": [
             ""
