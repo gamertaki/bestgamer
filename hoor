@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR FIX 27 🛜",
+  "remarks": "HOOR FIX 28 🛜",
   "version": {
     "min": "26.2.6"
   },
@@ -13,7 +13,7 @@
         "tag": "remote-dns"
       },
       {
-        "address": "8.8.8.8",
+        "address": "1.1.1.1",
         "": [
           "",
           ""
