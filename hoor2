@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R 2 - FIX 1 🔴",
+  "remarks": "H O O R 2 - FIX 2 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -81,7 +81,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -135,7 +135,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -189,7 +189,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -243,7 +243,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -297,7 +297,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -351,7 +351,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -405,7 +405,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -459,7 +459,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -513,7 +513,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -567,7 +567,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -621,7 +621,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
@@ -675,7 +675,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "": [
             ""
           ]
