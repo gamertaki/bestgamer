@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR FIX 28 🛜",
+  "remarks": "HOOR FIX 29 🛜",
   "version": {
     "min": "26.2.6"
   },
@@ -271,7 +271,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "165.215.250.14",
+            "address": "165.215.250.19",
             "port": 443,
             "users": [
               {
