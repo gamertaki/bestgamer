@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - FIX 10 🟢⚪🔴",
+  "remarks": "F O R - A L L - FIX 11 🟢⚪🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -15,7 +15,7 @@
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:",
+          "full:www.speedtest.net",
           "full:www.speedtest.net"
         ],
         "skipFallback": true
