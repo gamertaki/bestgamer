@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 4 🟢⚪🔴",
+  "remarks": "F O R - A L L 2 - FIX 5 🟢⚪🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -115,7 +115,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.43",
+            "address": "104.17.121.47",
             "port": 443,
             "users": [
               {
@@ -223,7 +223,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.43",
+            "address": "104.17.121.47",
             "port": 443,
             "users": [
               {
@@ -331,7 +331,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.43",
+            "address": "104.17.121.47",
             "port": 443,
             "users": [
               {
@@ -439,7 +439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.43",
+            "address": "104.17.121.47",
             "port": 443,
             "users": [
               {
@@ -547,7 +547,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.43",
+            "address": "104.17.121.47",
             "port": 443,
             "users": [
               {
