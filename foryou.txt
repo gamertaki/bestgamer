@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - FIX 17 🟢",
+  "remarks": "F O R - Y O U - FIX 20 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -15,7 +15,7 @@
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:",
+          "full:www.speedtest.net",
           "full:www.speedtest.net"
         ],
         "skipFallback": true
@@ -233,7 +233,7 @@
             "port": 443,
             "users": [
               {
-                "id": "d2815457-53c0-4f2a-95b2-0574f50d475c",
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
                 "encryption": "none"
               }
             ]
@@ -243,12 +243,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "red-voice-898e.fordgames3000.workers.dev",
-          "path": "/eyJqdW5rIjoiSjhvV3hLVXRLRWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "reD-VOicE-898e.fOrDgames3000.WOrkErS.Dev",
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -271,11 +271,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "165.215.250.14",
+            "address": "165.215.250.19",
             "port": 443,
             "users": [
               {
-                "id": "d2815457-53c0-4f2a-95b2-0574f50d475c",
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
                 "encryption": "none"
               }
             ]
@@ -285,12 +285,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "red-voice-898e.fordgames3000.workers.dev",
-          "path": "/eyJqdW5rIjoiSjhvV3hLVXRLRWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "reD-VOicE-898e.fOrDgames3000.WOrkErS.Dev",
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -485,7 +485,7 @@
             "port": 443,
             "users": [
               {
-                "id": "d2815457-53c0-4f2a-95b2-0574f50d475c",
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
                 "encryption": "none"
               }
             ]
@@ -495,12 +495,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "red-voice-898e.fordgames3000.workers.dev",
-          "path": "/eyJqdW5rIjoiSjhvV3hLVXRLRWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "reD-VOicE-898e.fOrDgames3000.WOrkErS.Dev",
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
