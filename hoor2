@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R 2 - FIX 5 🔴",
+  "remarks": "H O O R 2 - FIX 6 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -115,7 +115,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.47",
+            "address": "104.17.121.1",
             "port": 443,
             "users": [
               {
@@ -439,7 +439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.47",
+            "address": "104.17.121.1",
             "port": 443,
             "users": [
               {
