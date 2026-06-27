@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R 2 - FIX 4 🔴",
+  "remarks": "H O O R 2 - FIX 5 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -15,7 +15,7 @@
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:",
+          "full:www.speedtest.net",
           "full:www.speedtest.net"
         ],
         "skipFallback": true
@@ -223,7 +223,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.47",
+            "address": "104.17.121.1",
             "port": 443,
             "users": [
               {
@@ -331,7 +331,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.47",
+            "address": "104.17.121.1",
             "port": 443,
             "users": [
               {
@@ -547,7 +547,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.47",
+            "address": "104.17.121.1",
             "port": 443,
             "users": [
               {
