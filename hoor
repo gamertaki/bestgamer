@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR FIX 29 🛜",
+  "remarks": "HOOR FIX 30 🛜",
   "version": {
     "min": "26.2.6"
   },
@@ -663,7 +663,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "20s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "policy": {
