@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R 2 - FIX 7 🔴",
+  "remarks": "H O O R 2 - FIX 10 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -389,7 +389,7 @@
             "port": 443,
             "users": [
               {
-                "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
+                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
                 "encryption": "none"
               }
             ]
@@ -399,12 +399,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "aged-paper-653e.tinygamew.workers.dev",
-          "path": "/eyJqdW5rIjoiTkVyRFhZMlNRM2wiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broken-sun-c278.retfsvui.workers.dev",
+          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
+          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
           "fingerprint": "chrome",
           "": [
             ""
@@ -443,7 +443,7 @@
             "port": 443,
             "users": [
               {
-                "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
+                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
                 "encryption": "none"
               }
             ]
@@ -453,12 +453,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "aged-paper-653e.tinygamew.workers.dev",
-          "path": "/eyJqdW5rIjoiTkVyRFhZMlNRM2wiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broken-sun-c278.retfsvui.workers.dev",
+          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
+          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
           "fingerprint": "chrome",
           "": [
             ""
@@ -659,7 +659,7 @@
             "port": 443,
             "users": [
               {
-                "id": "60afa1f6-4d86-495e-b7c4-e3614e4b0be1",
+                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
                 "encryption": "none"
               }
             ]
@@ -669,12 +669,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "aged-paper-653e.tinygamew.workers.dev",
-          "path": "/eyJqdW5rIjoiTkVyRFhZMlNRM2wiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "broken-sun-c278.retfsvui.workers.dev",
+          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AGed-pApEr-653e.TinYgAMEW.wOrKERs.DeV",
+          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
           "fingerprint": "chrome",
           "": [
             ""
