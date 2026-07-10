@@ -1,0 +1,828 @@
+{
+  "remarks": "F O R - Y O U - 2 - FIX 1 🔴",
+  "version": {
+    "min": "26.2.6"
+  },
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://8.8.8.8/dns-query",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "full:www.speedtest.net",
+          "full:www.speedtest.net"
+        ],
+        "skipFallback": true
+      }
+    ],
+    "queryStrategy": "UseIP",
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 10808,
+      "protocol": "mixed",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "mixed-in"
+    },
+    {
+      "listen": "0.0.0.0",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.130.125.70",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "twilight-disk-7457.fordtakiw.workers.dev",
+          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "twilight-disk-7457.fordtakiw.workers.dev",
+          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.130.125.70",
+            "port": 443,
+            "users": [
+              {
+                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "patient-truth-c479.fordgame200.workers.dev",
+          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "patient-truth-c479.fordgame200.workers.dev",
+          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.130.125.70",
+            "port": 443,
+            "users": [
+              {
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-6"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.130.125.70",
+            "port": 443,
+            "users": [
+              {
+                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "green-night-63b3.fordsgamess4.workers.dev",
+          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "green-night-63b3.fordsgamess4.workers.dev",
+          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.130.125.70",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "twilight-disk-7457.fordtakiw.workers.dev",
+          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "patient-truth-c479.fordgame200.workers.dev",
+          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.152.232",
+            "port": 443,
+            "users": [
+              {
+                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "broad-moon-3c57.gamertakin.workers.dev",
+          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.121.75",
+            "port": 443,
+            "users": [
+              {
+                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "green-night-63b3.fordsgamess4.workers.dev",
+          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "fingerprint": "chrome",
+          "": [
+            ""
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-5",
+                "length": "1-10",
+                "delay": "0"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-12"
+    },
+    {
+      "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
+      "tag": "dns-out"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "mixed-in"
+        ],
+        "port": 53,
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "balancerTag": "all-proxies",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
+        "balancerTag": "all-proxies",
+        "type": "field"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all-proxies",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        },
+        "fallbackTag": "proxy-2"
+      }
+    ]
+  },
+  "observatory": {
+    "subjectSelector": [
+      "proxy"
+    ],
+    "probeUrl": "https://www.gstatic.com/generate_204",
+    "probeInterval": "30s",
+    "enableConcurrency": true
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "connIdle": 300,
+        "handshake": 4,
+        "uplinkOnly": 1,
+        "downlinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "stats": {}
+}
