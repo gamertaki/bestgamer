@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 1 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 3 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -389,7 +389,7 @@
             "port": 443,
             "users": [
               {
-                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
                 "encryption": "none"
               }
             ]
@@ -399,12 +399,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "green-night-63b3.fordsgamess4.workers.dev",
-          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
+          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -443,7 +443,7 @@
             "port": 443,
             "users": [
               {
-                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
                 "encryption": "none"
               }
             ]
@@ -453,12 +453,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "green-night-63b3.fordsgamess4.workers.dev",
-          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
+          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -659,7 +659,7 @@
             "port": 443,
             "users": [
               {
-                "id": "71cee2cf-9f4b-4fa0-b60e-f2f07e7951f7",
+                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
                 "encryption": "none"
               }
             ]
@@ -669,12 +669,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "green-night-63b3.fordsgamess4.workers.dev",
-          "path": "/eyJqdW5rIjoiVXJaeVBPbnNRSkd0TTN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
+          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "grEen-NiGHt-63b3.fORdSgaMESS4.WOrkERs.DeV",
+          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
