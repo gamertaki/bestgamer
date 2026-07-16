@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 5 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 7 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -65,7 +65,7 @@
             "port": 443,
             "users": [
               {
-                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
                 "encryption": "none"
               }
             ]
@@ -75,12 +75,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "twilight-disk-7457.fordtakiw.workers.dev",
-          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+          "host": "still-haze-8f4c.rtgvsded.workers.dev",
+          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -119,7 +119,7 @@
             "port": 443,
             "users": [
               {
-                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
                 "encryption": "none"
               }
             ]
@@ -129,12 +129,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "twilight-disk-7457.fordtakiw.workers.dev",
-          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+          "host": "still-haze-8f4c.rtgvsded.workers.dev",
+          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -497,7 +497,7 @@
             "port": 443,
             "users": [
               {
-                "id": "f2e6441c-da67-4594-b71e-7155749f3575",
+                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
                 "encryption": "none"
               }
             ]
@@ -507,12 +507,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "twilight-disk-7457.fordtakiw.workers.dev",
-          "path": "/eyJqdW5rIjoiVHZuQnZNYkFTVXd6cElpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
+          "host": "still-haze-8f4c.rtgvsded.workers.dev",
+          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "TWiLIGhT-disK-7457.FORDtAKiw.WorKERs.deV",
+          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
