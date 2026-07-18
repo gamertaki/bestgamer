@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - FIX 31 🟢",
+  "remarks": "F O R - Y O U - FIX 36 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -149,7 +149,7 @@
             "port": 443,
             "users": [
               {
-                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "id": "9decc86b-320f-4c98-9cd4-e8342b8c5869",
                 "encryption": "none"
               }
             ]
@@ -159,12 +159,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "patient-truth-c479.fordgame200.workers.dev",
-          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "misty-boat-fc16.fort201.workers.dev",
+          "path": "/eyJqdW5rIjoiTkpWdWhoeXlBSiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkxLjEwNy4xNTguNzciXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "serverName": "miSty-BOAT-FC16.fORT201.WorkerS.DEv",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -191,7 +191,7 @@
             "port": 443,
             "users": [
               {
-                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "id": "240a0b15-92ad-4f1c-a80b-f66e33e9ebbc",
                 "encryption": "none"
               }
             ]
@@ -201,12 +201,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "patient-truth-c479.fordgame200.workers.dev",
-          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "bold-wildflower-b135.fwfsf202f.workers.dev",
+          "path": "/eyJqdW5rIjoiaG5McmFrdUxHIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMy41OC4xNjUiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "serverName": "BOLd-WiLDflOWER-b135.FwfsF202F.workers.DEV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -233,7 +233,7 @@
             "port": 443,
             "users": [
               {
-                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "id": "91f13d4b-025e-4a13-b0ba-f6afabcb5b72",
                 "encryption": "none"
               }
             ]
@@ -243,12 +243,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broad-moon-3c57.gamertakin.workers.dev",
-          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+          "host": "frosty-voice-6067.rtegfsgds203.workers.dev",
+          "path": "/eyJqdW5rIjoiY3JUUVNYc1pLNGZ6dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NC4xODAuMTg4LjE4NCJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "serverName": "frOStY-vOicE-6067.rteGFSgdS203.woRkERS.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -275,7 +275,7 @@
             "port": 443,
             "users": [
               {
-                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "id": "0d169b01-3d64-45ec-8e73-9366a3bb6103",
                 "encryption": "none"
               }
             ]
@@ -285,12 +285,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broad-moon-3c57.gamertakin.workers.dev",
-          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+          "host": "damp-butterfly-6d16.rtyrgdgdstak204.workers.dev",
+          "path": "/eyJqdW5rIjoibzNkOVp1M2ZtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTA3LjE1OC43NyJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "serverName": "daMP-bUTTeRFly-6d16.RtyRgdGDStAk204.WorkErs.DEV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -317,7 +317,7 @@
             "port": 443,
             "users": [
               {
-                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
+                "id": "8fff9102-a5d4-40ee-9344-cbf7132e1bb3",
                 "encryption": "none"
               }
             ]
@@ -327,12 +327,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
-          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "host": "holy-disk-6703.rtgeryegd205.workers.dev",
+          "path": "/eyJqdW5rIjoicXk5U251YjhKVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
+          "serverName": "hOly-dIsK-6703.rtgEryeGD205.WorkERS.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -663,7 +663,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "10s",
+    "probeInterval": "15s",
     "enableConcurrency": true
   },
   "policy": {
