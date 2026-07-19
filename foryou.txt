@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - FIX 36 🟢",
+  "remarks": "F O R - Y O U - FIX 38 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -359,7 +359,7 @@
             "port": 443,
             "users": [
               {
-                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
+                "id": "9cd5124a-93af-4234-93ca-fba50fb4b97c",
                 "encryption": "none"
               }
             ]
@@ -369,12 +369,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
-          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "host": "steep-voice-f5b1.ewtewswf206erw.workers.dev",
+          "path": "/eyJqdW5rIjoicTVhcFpsUzBadFBKeUFKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg4LjI0NS4xNjEuMTQxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
+          "serverName": "SteeP-voICe-F5b1.eWtEwSWf206erW.woRkERS.DEv",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -401,7 +401,7 @@
             "port": 443,
             "users": [
               {
-                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
+                "id": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
                 "encryption": "none"
               }
             ]
@@ -411,12 +411,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "still-haze-8f4c.rtgvsded.workers.dev",
-          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
+          "host": "summer-sky-0522.sfpoijsofw207gefs.workers.dev",
+          "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
+          "serverName": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
