@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - FIX 38 🟢",
+  "remarks": "F O R - Y O U - FIX 41 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -443,7 +443,7 @@
             "port": 443,
             "users": [
               {
-                "id": "492a4ca5-d5b1-49e4-b2bc-5a71bf0de709",
+                "id": "e6b85228-046a-44f8-a0d7-1f893f8e37f7",
                 "encryption": "none"
               }
             ]
@@ -453,12 +453,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "patient-truth-c479.fordgame200.workers.dev",
-          "path": "/eyJqdW5rIjoiQ2tZYWQ1azMzWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "4ij9icf0zxn41-h8.gfewesfr208ege.workers.dev",
+          "path": "/vl/1NHhChjHf9VL1AcSFpN5B8m8AXP?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "PAtiENT-trUTH-C479.fORDGAme200.wORKErs.dEV",
+          "serverName": "4IJ9icf0zXn41-h8.gfEwesfR208Ege.wOrkERs.dEv",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -485,7 +485,7 @@
             "port": 443,
             "users": [
               {
-                "id": "c0356097-2263-4790-8f8b-b3df709dd743",
+                "id": "6dfc5df1-bb9f-44f5-96c7-57308976e5b0",
                 "encryption": "none"
               }
             ]
@@ -495,12 +495,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broad-moon-3c57.gamertakin.workers.dev",
-          "path": "/eyJqdW5rIjoiOWRibFBYOUVUUm9zcmhGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==?ed=2560"
+          "host": "nvv1v2h11u6tv08v5l0v6l1n.ewfewf209wew.workers.dev",
+          "path": "/vl/GmXJqofYNoFTLpvM7e?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "BroaD-moOn-3c57.GAmErTAKiN.workERs.Dev",
+          "serverName": "NVv1v2H11u6tV08v5L0V6L1N.eWFEwF209WeW.WOrKErs.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -527,7 +527,7 @@
             "port": 443,
             "users": [
               {
-                "id": "754407dc-b9be-476b-9d11-864fa025c98a",
+                "id": "65105c22-c2c3-437a-b368-421f841a9185",
                 "encryption": "none"
               }
             ]
@@ -537,12 +537,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "throbbing-limit-80f0.forgsedfew51.workers.dev",
-          "path": "/eyJqdW5rIjoiU3BTVGM5cW85QzFBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "host": "0iw-tqjj2bxikovnzhz-kyln90ib0.wrwf5sf210geg.workers.dev",
+          "path": "/vl/GyfUFMlS65FwW2lWyTL995YDFAtTL1?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "THrObBInG-lIMit-80f0.FORgSeDFew51.wOrKerS.DEv",
+          "serverName": "0IW-tQJJ2bXIkovnzHZ-KYLn90Ib0.WRwf5Sf210GEg.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
