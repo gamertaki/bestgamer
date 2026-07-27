@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 16 🔴",
+  "remarks": "F O R - A L L 2 - FIX 17 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -119,7 +119,7 @@
             "port": 443,
             "users": [
               {
-                "id": "31b80b40-d0aa-447e-b7d3-12cda8ce0c27",
+                "id": "0bc958f4-e68c-4322-ad1f-1c2578581541",
                 "encryption": "none"
               }
             ]
@@ -129,12 +129,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "damp-lake-a3f3.takin100.workers.dev",
-          "path": "/eyJqdW5rIjoiYVRJMTVyUXFKTCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "8lzfgj5zk3mk6aseioy2frc.wrfwsf9w4869t.workers.dev",
+          "path": "/vl/oQ8L40rYgViguc74n?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "DAmp-Lake-A3f3.TakiN100.WORKers.dEV",
+          "serverName": "8LZFGJ5zK3MK6asEIOy2frC.WrFWSf9w4869T.WoRkErS.Dev",
           "fingerprint": "chrome",
           "": [
             ""
