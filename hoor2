@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R 2 - FIX 13 🔴",
+  "remarks": "H O O R 2 - FIX 14 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -119,7 +119,7 @@
             "port": 443,
             "users": [
               {
-                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "id": "dbed682f-13d2-448c-a717-826d2a8b19b9",
                 "encryption": "none"
               }
             ]
@@ -129,12 +129,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "lov9ksgpg8b43l6mq.drfwnfqfsgfws.workers.dev",
+          "path": "/vl/FhIq5tdtHjbqjwm1?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "serverName": "LOV9KSGpg8b43L6mq.DRFwnFQfSgFwS.WOrKErS.DEV",
           "fingerprint": "chrome",
           "": [
             ""
