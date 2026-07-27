@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 23 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 24 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -497,7 +497,7 @@
             "port": 443,
             "users": [
               {
-                "id": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
+                "id": "57fa35dc-594f-428b-a5e5-128b31f1f20c",
                 "encryption": "none"
               }
             ]
@@ -507,12 +507,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "summer-sky-0522.sfpoijsofw207gefs.workers.dev",
-          "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==?ed=2560"
+          "host": "hffrtv5tiiyfix-g0w11k-9bax.takegame2007.workers.dev",
+          "path": "/vl/90rsOdYy7pRyCL68QgMhq?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
+          "serverName": "HffrTV5TIiyfIx-G0W11k-9Bax.takEGAMe2007.woRKers.DeV",
           "fingerprint": "chrome",
           "": [
             ""
