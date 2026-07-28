@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 2 - FIX 14 🔴",
+  "remarks": "H O O R - 2 - FIX 15 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -13,7 +13,7 @@
         "tag": "remote-dns"
       },
       {
-        "address": "8.8.8.8",
+        "address": "1.1.1.1",
         "domains": [
           "full:www.speedtest.net",
           "full:www.speedtest.net"
