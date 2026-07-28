@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 45 🟢",
+  "remarks": "F O R - Y O U - 1 - FIX 48 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -65,7 +65,7 @@
             "port": 443,
             "users": [
               {
-                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
+                "id": "6bef6685-e989-467c-8fea-7fa1c6a0af2c",
                 "encryption": "none"
               }
             ]
@@ -75,12 +75,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "still-haze-8f4c.rtgvsded.workers.dev",
-          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
+          "host": "lzc2j8i5ptexj5i7aq0hfxqadvzcq.wf99saf201sfs9.workers.dev",
+          "path": "/vl/BBj8crirrHMxntD7H3o3z?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
+          "serverName": "LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -107,7 +107,7 @@
             "port": 443,
             "users": [
               {
-                "id": "b229c88e-9796-4dd9-93f3-8ce3b4895ba8",
+                "id": "6bef6685-e989-467c-8fea-7fa1c6a0af2c",
                 "encryption": "none"
               }
             ]
@@ -117,12 +117,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "still-haze-8f4c.rtgvsded.workers.dev",
-          "path": "/eyJqdW5rIjoiMWtkNkRWTGhhdnAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0OS4xMi4yMzcuNzEiXX0=?ed=2560"
+          "host": "lzc2j8i5ptexj5i7aq0hfxqadvzcq.wf99saf201sfs9.workers.dev",
+          "path": "/vl/BBj8crirrHMxntD7H3o3z?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "stiLl-HaZe-8f4C.RTgvsdEd.WORKeRS.DEv",
+          "serverName": "LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -191,7 +191,7 @@
             "port": 443,
             "users": [
               {
-                "id": "240a0b15-92ad-4f1c-a80b-f66e33e9ebbc",
+                "id": "6bef6685-e989-467c-8fea-7fa1c6a0af2c",
                 "encryption": "none"
               }
             ]
@@ -201,12 +201,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "bold-wildflower-b135.fwfsf202f.workers.dev",
-          "path": "/eyJqdW5rIjoiaG5McmFrdUxHIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMy41OC4xNjUiXX0=?ed=2560"
+          "host": "lzc2j8i5ptexj5i7aq0hfxqadvzcq.wf99saf201sfs9.workers.dev",
+          "path": "/vl/BBj8crirrHMxntD7H3o3z?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "BOLd-WiLDflOWER-b135.FwfsF202F.workers.DEV",
+          "serverName": "LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
