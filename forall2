@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 17 🔴",
+  "remarks": "F O R - A L L 2 - FIX 20 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -173,7 +173,7 @@
             "port": 443,
             "users": [
               {
-                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
+                "id": "a028db68-7627-4c57-bb58-99610b66e617",
                 "encryption": "none"
               }
             ]
@@ -183,12 +183,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "rapid-recipe-5173.takin2000a.workers.dev",
-          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
+          "host": "uyw57gimatqmq3-rmqxrncfmh4x7wirt.takin1090game.workers.dev",
+          "path": "/vl/khiLdIyj5tMNkTMafkNI0J7toXGF3Fr?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
+          "serverName": "UYw57gimATQmQ3-RmQXrnCfmH4X7Wirt.tAkIn1090gAmE.woRKERS.DeV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -227,7 +227,7 @@
             "port": 443,
             "users": [
               {
-                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
+                "id": "a067d2c0-18c4-4f24-b16b-2bb1791f22e4",
                 "encryption": "none"
               }
             ]
@@ -237,12 +237,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "rapid-recipe-5173.takin2000a.workers.dev",
-          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
+          "host": "so5qqw7rv04wd4e00ol8x8k.taki222ew.workers.dev",
+          "path": "/vl/MyFgFl2Quok6XnL69Tyj4cesp?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
+          "serverName": "sO5qqW7Rv04WD4E00OL8x8K.TAkI222Ew.wORKeRs.deV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -659,7 +659,7 @@
             "port": 443,
             "users": [
               {
-                "id": "660c89c8-d9c2-472f-8012-431d67af3449",
+                "id": "a028db68-7627-4c57-bb58-99610b66e617",
                 "encryption": "none"
               }
             ]
@@ -669,12 +669,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "rapid-recipe-5173.takin2000a.workers.dev",
-          "path": "/eyJqdW5rIjoiRHFKN1pEOUZGVGtpcGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5NC4xNTkuMTAzLjQxIl19?ed=2560"
+          "host": "uyw57gimatqmq3-rmqxrncfmh4x7wirt.takin1090game.workers.dev",
+          "path": "/vl/khiLdIyj5tMNkTMafkNI0J7toXGF3Fr?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "rApiD-RECiPe-5173.TAKIn2000a.WORKeRs.dEV",
+          "serverName": "UYw57gimATQmQ3-RmQXrnCfmH4X7Wirt.tAkIn1090gAmE.woRKERS.DeV",
           "fingerprint": "chrome",
           "": [
             ""
