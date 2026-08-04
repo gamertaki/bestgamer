@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 51 🟢",
+  "remarks": "F O R - Y O U - 1 - FIX 52 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -359,7 +359,7 @@
             "port": 443,
             "users": [
               {
-                "id": "9cd5124a-93af-4234-93ca-fba50fb4b97c",
+                "id": "663cbf80-011b-4111-a74d-eaba04ac8291",
                 "encryption": "none"
               }
             ]
@@ -369,12 +369,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "steep-voice-f5b1.ewtewswf206erw.workers.dev",
-          "path": "/eyJqdW5rIjoicTVhcFpsUzBadFBKeUFKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg4LjI0NS4xNjEuMTQxIl19?ed=2560"
+          "host": "kumvlabcer0r2cwu.takigame206be.workers.dev",
+          "path": "/vl/gsyfeANWhUoaEUUoap5smTYDJ5mN4MFy?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "SteeP-voICe-F5b1.eWtEwSWf206erW.woRkERS.DEv",
+          "serverName": "kumvlabcEr0r2cWu.tAKiGaMe206bE.wORKErs.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
