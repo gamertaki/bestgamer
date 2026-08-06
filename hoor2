@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 2 - FIX 15 🔴",
+  "remarks": "H O O R - 2 - FIX 29 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -65,7 +65,7 @@
             "port": 443,
             "users": [
               {
-                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "id": "dbed682f-13d2-448c-a717-826d2a8b19b9",
                 "encryption": "none"
               }
             ]
@@ -75,12 +75,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "lov9ksgpg8b43l6mq.drfwnfqfsgfws.workers.dev",
+          "path": "/vl/bTCc9onyeScvu7HfDWjIw?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "serverName": "Lov9ksgPG8b43l6MQ.DrFwNFqFSgfws.WoRKers.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -119,7 +119,7 @@
             "port": 443,
             "users": [
               {
-                "id": "dbed682f-13d2-448c-a717-826d2a8b19b9",
+                "id": "316f720d-1aad-4342-9830-b3a688977630",
                 "encryption": "none"
               }
             ]
@@ -129,12 +129,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "lov9ksgpg8b43l6mq.drfwnfqfsgfws.workers.dev",
-          "path": "/vl/FhIq5tdtHjbqjwm1?ed=2560"
+          "host": "sweet-term-5433.ceniyeb245.workers.dev",
+          "path": "/eyJqdW5rIjoiSGVua3pyZ3BtRURZYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "LOV9KSGpg8b43L6mq.DRFwnFQfSgFwS.WOrKErS.DEV",
+          "serverName": "SwEeT-tERm-5433.cENiYeB245.wORKeRS.DeV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -173,7 +173,7 @@
             "port": 443,
             "users": [
               {
-                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
+                "id": "ace73326-4123-425d-a680-fe3b9708a853",
                 "encryption": "none"
               }
             ]
@@ -183,12 +183,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
-          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
+          "host": "ng-2kgx-v2ixkvvftaeri.hoor300b.workers.dev",
+          "path": "/vl/M9y4JJKdcz6VnJLWsxPyMIpCoHs7Pp?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
+          "serverName": "Ng-2kGx-V2IXKvVftAeRi.HOor300b.WoRkeRS.dEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -227,7 +227,7 @@
             "port": 443,
             "users": [
               {
-                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
+                "id": "8d32a0ea-cba6-4ec6-98be-9c19087bea2b",
                 "encryption": "none"
               }
             ]
@@ -237,12 +237,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
-          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
+          "host": "eh0pbx0uszzt4vaszh6sfdpioq96.hoor600w.workers.dev",
+          "path": "/vl/NJt4FuAqWfj8vrsO8jJz6hWKHp4iyoym?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
+          "serverName": "Eh0PbX0Uszzt4vAsZH6SfDPiOq96.Hoor600W.woRKErs.dEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -292,11 +292,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "hidden-silence-147c.kingbestgame.workers.dev",
-          "path": "/eyJqdW5rIjoiYlRaVWFGR2dWV2p5biIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiRGJ6cHk4YVhFYkJUNHF3MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
+          "serverName": "hIddeN-siLeNCe-147c.kinGBestgame.WoRkeRS.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -335,7 +335,7 @@
             "port": 443,
             "users": [
               {
-                "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
+                "id": "d78ddd39-2aaa-4ce5-91a5-c084506a1d5c",
                 "encryption": "none"
               }
             ]
@@ -345,12 +345,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "hidden-silence-147c.kingbestgame.workers.dev",
-          "path": "/eyJqdW5rIjoiYlRaVWFGR2dWV2p5biIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "7tro0dfh9yiv34i3fecvyb8.hoo700rer.workers.dev",
+          "path": "/vl/fRZPUnFqaNwW8V9A8bzYCeefgGrrpzQ?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
+          "serverName": "7TRO0DFH9yIV34I3FecVYb8.HoO700rER.WORKErs.DeV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -400,11 +400,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "broken-sun-c278.retfsvui.workers.dev",
-          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiUnk3WjdkeVd5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
+          "serverName": "bRokEn-sun-c278.retFsvuI.workErS.dEV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -443,7 +443,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
+                "id": "c2f96926-ce0c-488f-8f6c-0285e978d789",
                 "encryption": "none"
               }
             ]
@@ -453,12 +453,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broken-sun-c278.retfsvui.workers.dev",
-          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "host": "i2k7zad201sxkvpqvvaerz90f.erf801fw.workers.dev",
+          "path": "/vl/AvPdFoShC7fJPXQV8?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
+          "serverName": "i2k7zAD201SXkvPqVvAeRz90f.ERF801fw.woRKers.DEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -497,7 +497,7 @@
             "port": 443,
             "users": [
               {
-                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "id": "1a05b427-ade8-43a2-ad60-91a7e6286feb",
                 "encryption": "none"
               }
             ]
@@ -507,12 +507,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
-          "path": "/eyJqdW5rIjoiZVhwZ1lDUmZuSFo2c2Q3dSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "qjomfftqk-08sdmoal-31-q.gtr905gfew.workers.dev",
+          "path": "/vl/bruPSmCreENgqWNTrzlaxvV?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sweEt-tERm-5433.cENiYeb245.WORkErs.DEV",
+          "serverName": "QjomfftQk-08SDMoAL-31-q.gtR905gfEW.workErs.dev",
           "fingerprint": "chrome",
           "": [
             ""
@@ -551,7 +551,7 @@
             "port": 443,
             "users": [
               {
-                "id": "81bb1546-8e99-460a-899d-f767c8e72bd6",
+                "id": "efec11e9-76cb-4d47-98d6-e8f3040e8cd3",
                 "encryption": "none"
               }
             ]
@@ -561,12 +561,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "snowy-grass-d45e.hoor2542w2.workers.dev",
-          "path": "/eyJqdW5rIjoiN3JOMm9YVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OC4xOTguODIuMTU0Il19?ed=2560"
+          "host": "j19gw4fpsxgkui4pw0srhg69na.well1000rgame.workers.dev",
+          "path": "/vl/qD3SumJlwhAWQ5RGZXlEI?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "snOWY-gRaSs-D45e.HooR2542W2.wORkErS.dev",
+          "serverName": "j19gw4FpSXgKuI4pw0SRhG69NA.wELL1000rgaME.wOrKerS.deV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -605,7 +605,7 @@
             "port": 443,
             "users": [
               {
-                "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
+                "id": "ace73326-4123-425d-a680-fe3b9708a853",
                 "encryption": "none"
               }
             ]
@@ -615,12 +615,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "hidden-silence-147c.kingbestgame.workers.dev",
-          "path": "/eyJqdW5rIjoiYlRaVWFGR2dWV2p5biIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "ng-2kgx-v2ixkvvftaeri.hoor300b.workers.dev",
+          "path": "/vl/M9y4JJKdcz6VnJLWsxPyMIpCoHs7Pp?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "HIDdEn-SILENcE-147c.kinGBEsTGAme.woRKErS.DeV",
+          "serverName": "Ng-2kGx-V2IXKvVftAeRi.HOor300b.WoRkeRS.dEv",
           "fingerprint": "chrome",
           "": [
             ""
@@ -659,7 +659,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
+                "id": "d78ddd39-2aaa-4ce5-91a5-c084506a1d5c",
                 "encryption": "none"
               }
             ]
@@ -669,12 +669,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broken-sun-c278.retfsvui.workers.dev",
-          "path": "/eyJqdW5rIjoiSnpvZlpkSkxPeGxKUFNqRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "host": "7tro0dfh9yiv34i3fecvyb8.hoo700rer.workers.dev",
+          "path": "/vl/fRZPUnFqaNwW8V9A8bzYCeefgGrrpzQ?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bROKen-sun-C278.rEtfsVUi.woRKeRs.Dev",
+          "serverName": "7TRO0DFH9yIV34I3FecVYb8.HoO700rER.WORKErs.DeV",
           "fingerprint": "chrome",
           "": [
             ""
