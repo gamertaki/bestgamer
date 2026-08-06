@@ -1,5 +1,5 @@
 {
-  "remarks": "Hamrah 1 FIX 12 🟢",
+  "remarks": "Hamrah 1 FIX 15 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -57,7 +57,7 @@
             "port": 443,
             "users": [
               {
-                "id": "824b4462-eefb-4e16-8cda-11fdac5dc135",
+                "id": "0b59ffbf-f3a4-45e0-9691-45ab3a5ebc1e",
                 "encryption": "none"
               }
             ]
@@ -67,12 +67,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
-          "path": "/eyJqdW5rIjoiMHFjVmVmSTQ1NXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "9fgmp22areke8d5k6k75.vahee200game.workers.dev",
+          "path": "/vl/9dBrWYo6sUlKmYFTZnUoFPm?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "TiNY-uniT-D6cC.vaHE7GaMe.WoRKeRs.dEV",
+          "serverName": "9FgMP22AreKe8D5K6K75.VAHee200GAMe.workErs.deV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
