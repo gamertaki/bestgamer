@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 31 🔴",
+  "remarks": "F O R - A L L 2 - FIX 32 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -335,7 +335,7 @@
             "port": 443,
             "users": [
               {
-                "id": "fe3f3823-0012-428a-bc9e-37fd8aafc139",
+                "id": "00aa2ecc-9bf5-4134-ad59-b72f3505da58",
                 "encryption": "none"
               }
             ]
@@ -345,12 +345,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "billowing-silence-8c1f.takin300.workers.dev",
-          "path": "/eyJqdW5rIjoiRjBTelNvZ3lReHVRd1kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "kes1nkg5kp62samtqmgf887c3ko-32.take33game.workers.dev",
+          "path": "/vl/gG60YjUSTSQa5Z6QmDRTALavjQ?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "BiLLowING-SILENCE-8c1F.tAkiN300.workERs.dev",
+          "serverName": "kES1nKG5kP62sAmTQmgf887c3kO-32.taKE33gaMe.WOrKerS.DEV",
           "fingerprint": "chrome",
           "": [
             ""
@@ -807,7 +807,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "02s",
+    "probeInterval": "10s",
     "enableConcurrency": true
   },
   "policy": {
