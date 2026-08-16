@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 33 🔴",
+  "remarks": "F O R - A L L 2 - FIX 34 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -75,12 +75,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "e2fccb1q10kfbcyguod5vta1.game4090tak.workers.dev",
+          "host": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
           "path": "/vl/7DVyspFcHCItFIhX5EYUQdGx?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "e2fCcB1q10KfBCyGUOD5vtA1.gAME4090taK.workeRS.DEv",
+          "serverName": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
           "fingerprint": "chrome",
           "": [
             ""
