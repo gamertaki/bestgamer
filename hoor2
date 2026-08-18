@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 2 - FIX 33 🔴",
+  "remarks": "H O O R - 2 - FIX 34 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -389,7 +389,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6aba0b9b-befa-4557-9ae5-a5a1afdbf067",
+                "id": "a661bc47-ddf2-4da5-86e1-675c96fa4f72",
                 "encryption": "none"
               }
             ]
@@ -399,12 +399,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "broken-sun-c278.retfsvui.workers.dev",
-          "path": "/eyJqdW5rIjoiUnk3WjdkeVd5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "toi0b3o03h5k6i32nqyr26i8c58.hotttr600ew.workers.dev",
+          "path": "/vl/pzMcygckRh1gh1Iy03d9c?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bRokEn-sun-c278.retFsvuI.workErS.dEV",
+          "serverName": "tOi0B3o03h5k6I32nqyr26I8c58.hoTTtr600EW.WOrKERS.dEV",
           "fingerprint": "chrome",
           "": [
             ""
