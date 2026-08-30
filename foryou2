@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 43 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 44 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -173,7 +173,7 @@
             "port": 443,
             "users": [
               {
-                "id": "9decc86b-320f-4c98-9cd4-e8342b8c5869",
+                "id": "5716c75f-194c-4ab1-a77a-4a0717fc473e",
                 "encryption": "none"
               }
             ]
@@ -183,12 +183,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "misty-boat-fc16.fort201.workers.dev",
-          "path": "/eyJqdW5rIjoiSENqVWtiYXhBRnFuTUlVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "llpzyjs-x0bz8vu8r0opa4u5h2e3udx.fot201game.workers.dev",
+          "path": "/vl/HxwJZ4CDOA6Xy6oFtdlxCJ?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "misty-BOaT-fC16.fORT201.wORKERs.dEV",
+          "serverName": "llpzyjS-X0bZ8vU8r0opA4U5h2E3udx.FoT201gAMe.worKeRS.dev",
           "fingerprint": "chrome",
           "": [
             ""
