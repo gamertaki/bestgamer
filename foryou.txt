@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 65 🟢",
+  "remarks": "F O R - Y O U - 1 - FIX 69 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -13,10 +13,10 @@
         "tag": "remote-dns"
       },
       {
-        "address": "1.1.1.1",
+        "address": "8.8.8.8",
         "domains": [
-          "full:www.speedtest.net",
-          "full:www.speedtest.net"
+          "full:www.buydomains.com",
+          "full:www.buydomains.com"
         ],
         "skipFallback": true
       }
@@ -61,7 +61,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "www.buydomains.com",
             "port": 443,
             "users": [
               {
@@ -145,7 +145,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "auth0.com",
             "port": 443,
             "users": [
               {
@@ -229,7 +229,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "godaddy.com",
             "port": 443,
             "users": [
               {
@@ -313,7 +313,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "hub.docker.com",
             "port": 443,
             "users": [
               {
