@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 42 🟢",
+  "remarks": "F O R - A L L 1 - FIX 46 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -61,7 +61,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "www.buydomains.com",
             "port": 443,
             "users": [
               {
@@ -145,7 +145,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "auth0.com",
             "port": 443,
             "users": [
               {
@@ -229,7 +229,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "godaddy.com",
             "port": 443,
             "users": [
               {
@@ -313,7 +313,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "hub.docker.com",
             "port": 443,
             "users": [
               {
