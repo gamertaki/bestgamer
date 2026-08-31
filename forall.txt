@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 47 🟢",
+  "remarks": "F O R - A L L 1 - FIX 48 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -145,7 +145,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "auth0.com",
+            "address": "cookiebot.com",
             "port": 443,
             "users": [
               {
@@ -313,7 +313,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "hub.docker.com",
+            "address": "ringcentral.com",
             "port": 443,
             "users": [
               {
