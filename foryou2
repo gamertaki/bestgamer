@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 44 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 45 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -13,10 +13,10 @@
         "tag": "remote-dns"
       },
       {
-        "address": "1.1.1.1",
+        "address": "8.8.8.8",
         "domains": [
-          "full:www.speedtest.net",
-          "full:www.speedtest.net"
+          "full:www.buydomains.com",
+          "full:www.buydomains.com"
         ],
         "skipFallback": true
       }
