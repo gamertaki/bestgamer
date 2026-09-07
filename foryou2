@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 45 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 46 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -335,7 +335,7 @@
             "port": 443,
             "users": [
               {
-                "id": "0d169b01-3d64-45ec-8e73-9366a3bb6103",
+                "id": "8e5eb7b4-e412-4027-a9b8-3ddaf214a536",
                 "encryption": "none"
               }
             ]
@@ -345,12 +345,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "damp-butterfly-6d16.rtyrgdgdstak204.workers.dev",
-          "path": "/eyJqdW5rIjoiRUZpUHdkOXRyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "c09a27io47mjunfryaejt3b.tersgame204.workers.dev",
+          "path": "/vl/ay12ZgCJYzNwmzAql?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "DAmp-buttErFly-6D16.RTYRGdgDstak204.woRKerS.Dev",
+          "serverName": "c09A27io47mjuNFrYaejT3b.TersGAME204.WorkErS.Dev",
           "fingerprint": "chrome",
           "": [
             ""
