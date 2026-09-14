@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 49 🟢",
+  "remarks": "F O R - A L L 1 - FIX 50 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -317,7 +317,7 @@
             "port": 443,
             "users": [
               {
-                "id": "3cea68e7-b0db-4867-9bc0-ecbcd96ff6d5",
+                "id": "64926f20-1798-4be9-8a46-aee2bd584b54",
                 "encryption": "none"
               }
             ]
@@ -327,12 +327,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "super-salad-de90.takin500.workers.dev",
-          "path": "/eyJqdW5rIjoiY3hhTEZUUU8iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "iuk4wcprqs5mnxw747pm3lkc5t2yw.takin500goodgames.workers.dev",
+          "path": "/vl/kY7qpGUUeGiW2D54?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "supER-Salad-de90.tAkin500.wORKERS.dev",
+          "serverName": "Iuk4WCPRQS5mnXw747PM3lKC5T2Yw.TaKiN500GoodgAmeS.WORKERs.DEV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
