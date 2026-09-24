@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 1 - FIX 65 🟢",
+  "remarks": "H O O R - 1 - FIX 67 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -103,7 +103,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.18",
+            "address": "172.67.73.00",
             "port": 443,
             "users": [
               {
@@ -187,7 +187,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.15",
+            "address": "RingCentral.com",
             "port": 443,
             "users": [
               {
@@ -229,7 +229,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "godaddy.com",
+            "address": "Thalia.de",
             "port": 443,
             "users": [
               {
@@ -397,7 +397,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.4",
+            "address": "194.156.26.00",
             "port": 443,
             "users": [
               {
@@ -439,7 +439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.60.169",
+            "address": "104.25.136.251",
             "port": 443,
             "users": [
               {
@@ -481,7 +481,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.181.197.25",
+            "address": "199.181.197.00",
             "port": 443,
             "users": [
               {
