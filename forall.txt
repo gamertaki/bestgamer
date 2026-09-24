@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 50 🟢",
+  "remarks": "F O R - A L L 1 - FIX 52 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -103,11 +103,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.18",
+            "address": "172.67.73.00",
             "port": 443,
             "users": [
               {
-                "id": "31b80b40-d0aa-447e-b7d3-12cda8ce0c27",
+                "id": "41560473-1269-448f-bd1f-ce24110d2ad7",
                 "encryption": "none"
               }
             ]
@@ -117,12 +117,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "damp-lake-a3f3.takin100.workers.dev",
-          "path": "/eyJqdW5rIjoiNGl1aXYxSGpvIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "host": "2wu551rg3xw7ksvopg33lap-k.tak100gamer.workers.dev",
+          "path": "/vl/MC9opi2Z5v1rk7XeeJ6I06Ksr?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dAmp-LAKE-a3F3.takiN100.wORkErS.dev",
+          "serverName": "2wu551RG3XW7kSVOPg33lAp-k.tAK100gAmer.WORKErS.dEV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -187,7 +187,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.15",
+            "address": "RingCentral.com",
             "port": 443,
             "users": [
               {
@@ -229,7 +229,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "godaddy.com",
+            "address": "Thalia.de",
             "port": 443,
             "users": [
               {
@@ -397,7 +397,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.26.4",
+            "address": "194.156.26.00",
             "port": 443,
             "users": [
               {
@@ -439,7 +439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.60.169",
+            "address": "104.25.136.251",
             "port": 443,
             "users": [
               {
@@ -481,7 +481,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.181.197.25",
+            "address": "199.181.197.00",
             "port": 443,
             "users": [
               {
