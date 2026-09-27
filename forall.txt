@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 52 🟢",
+  "remarks": "F O R - A L L 1 - FIX 53 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -187,7 +187,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "RingCentral.com",
+            "address": "Unbounce.com",
             "port": 443,
             "users": [
               {
