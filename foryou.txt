@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 73 🟢",
+  "remarks": "F O R - Y O U - 1 - FIX 75 🟢",
   "version": {
     "min": "26.2.6"
   },
@@ -107,7 +107,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6bef6685-e989-467c-8fea-7fa1c6a0af2c",
+                "id": "f07636ac-e131-44a0-a557-3c8b36819322",
                 "encryption": "none"
               }
             ]
@@ -117,12 +117,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "lzc2j8i5ptexj5i7aq0hfxqadvzcq.wf99saf201sfs9.workers.dev",
-          "path": "/vl/fSV9yOizLnqWHqLYl704BX?ed=2560"
+          "host": "fyu56chfoue5zozfnjdq.progamingtak.workers.dev",
+          "path": "/vl/bcVlfUWUCzBlvsVdJru?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "lZC2J8i5PTexJ5I7aq0HfXQADVzCq.wF99sAf201Sfs9.wOrkERs.DeV",
+          "serverName": "fyu56ChFOUE5ZOZfNjDQ.PROGamingtaK.WOrKERs.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
