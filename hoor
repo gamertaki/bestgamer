@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR 1 Hamrah - FIX 1 test ",
+  "remarks": "HOOR 1 Hamrah - FIX 3 ✅ ",
   "version": {
     "min": "26.2.6"
   },
@@ -70,7 +70,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.buydomains.com",
+            "address": "104.18.152.229",
             "port": 443,
             "users": [
               {
@@ -156,7 +156,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cookiebot.com",
+            "address": "104.17.71.185",
             "port": 443,
             "users": [
               {
@@ -199,7 +199,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Unbounce.com",
+            "address": "104.18.195.39",
             "port": 443,
             "users": [
               {
@@ -242,7 +242,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Thalia.de",
+            "address": "88.216.67.54",
             "port": 443,
             "users": [
               {
@@ -285,7 +285,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "165.215.250.21",
+            "address": "165.215.250.1",
             "port": 443,
             "users": [
               {
@@ -328,7 +328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ringcentral.com",
+            "address": "194.156.26.6",
             "port": 443,
             "users": [
               {
