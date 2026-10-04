@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 77 🟢",
+  "remarks": "For You Hamrah - FIX 2 ✅ ",
   "version": {
     "min": "26.2.6"
   },
@@ -9,6 +9,14 @@
   "dns": {
     "servers": [
       {
+        "address": "fakedns",
+        "domains": [
+          "full:www.buydomains.com",
+          "full:www.speedtest.net"
+        ],
+        "skipFallback": false
+      },
+      {
         "address": "https://8.8.8.8/dns-query",
         "tag": "remote-dns"
       },
@@ -16,7 +24,7 @@
         "address": "8.8.8.8",
         "domains": [
           "full:www.buydomains.com",
-          "full:www.buydomains.com"
+          "full:www.speedtest.net"
         ],
         "skipFallback": true
       }
@@ -26,7 +34,7 @@
   },
   "inbounds": [
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10808,
       "protocol": "mixed",
       "settings": {
@@ -36,7 +44,8 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ],
         "enabled": true,
         "routeOnly": true
@@ -44,7 +53,7 @@
       "tag": "mixed-in"
     },
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -61,7 +70,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.buydomains.com",
+            "address": "104.18.152.229",
             "port": 443,
             "users": [
               {
@@ -84,7 +93,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -103,7 +113,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.00",
+            "address": "172.67.73.11",
             "port": 443,
             "users": [
               {
@@ -126,7 +136,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -145,7 +156,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cookiebot.com",
+            "address": "104.17.71.185",
             "port": 443,
             "users": [
               {
@@ -168,7 +179,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -187,7 +199,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Unbounce.com",
+            "address": "104.18.195.39",
             "port": 443,
             "users": [
               {
@@ -210,7 +222,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -229,7 +242,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Thalia.de",
+            "address": "88.216.67.54",
             "port": 443,
             "users": [
               {
@@ -252,7 +265,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -271,7 +285,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "165.215.250.21",
+            "address": "165.215.250.1",
             "port": 443,
             "users": [
               {
@@ -294,7 +308,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -313,7 +328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ringcentral.com",
+            "address": "194.156.26.6",
             "port": 443,
             "users": [
               {
@@ -336,7 +351,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -355,7 +371,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.181.197.00",
+            "address": "199.181.197.11",
             "port": 443,
             "users": [
               {
@@ -378,7 +394,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -391,174 +408,6 @@
         }
       },
       "tag": "proxy-8"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.156.26.00",
-            "port": 443,
-            "users": [
-              {
-                "id": "57fa35dc-594f-428b-a5e5-128b31f1f20c",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "hffrtv5tiiyfix-g0w11k-9bax.takegame2007.workers.dev",
-          "path": "/vl/90rsOdYy7pRyCL68QgMhq?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "HffrTV5TIiyfIx-G0W11k-9Bax.takEGAMe2007.woRKers.DeV",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-9"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.25.136.251",
-            "port": 443,
-            "users": [
-              {
-                "id": "e6b85228-046a-44f8-a0d7-1f893f8e37f7",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "4ij9icf0zxn41-h8.gfewesfr208ege.workers.dev",
-          "path": "/vl/2BH9tQY6D23bbiTsscipxSwmxObEi7?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "4ij9icF0ZxN41-H8.GfewEsfr208eGE.WORkErS.DEv",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-10"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "199.181.197.00",
-            "port": 443,
-            "users": [
-              {
-                "id": "6dfc5df1-bb9f-44f5-96c7-57308976e5b0",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "nvv1v2h11u6tv08v5l0v6l1n.ewfewf209wew.workers.dev",
-          "path": "/vl/EoEjf6e1lQxmRXRnBR?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "NvV1v2H11U6tV08v5L0V6L1N.ewfEwf209Wew.WORKErs.DEV",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-11"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.56.30",
-            "port": 443,
-            "users": [
-              {
-                "id": "65105c22-c2c3-437a-b368-421f841a9185",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "0iw-tqjj2bxikovnzhz-kyln90ib0.wrwf5sf210geg.workers.dev",
-          "path": "/vl/U1bxLFmQTEilkeUJkPROgn1MHxs?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0IW-TQJJ2BXIkOVNZhZ-KYln90ib0.wRWF5sf210Geg.WOrKeRS.DEV",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-12"
     },
     {
       "protocol": "dns",
@@ -663,7 +512,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "20s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "policy": {
