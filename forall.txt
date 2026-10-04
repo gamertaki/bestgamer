@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 1 - FIX 53 🟢",
+  "remarks": "For All Hamrah - FIX 1 ✅ ",
   "version": {
     "min": "26.2.6"
   },
@@ -9,6 +9,14 @@
   "dns": {
     "servers": [
       {
+        "address": "fakedns",
+        "domains": [
+          "full:www.buydomains.com",
+          "full:www.speedtest.net"
+        ],
+        "skipFallback": false
+      },
+      {
         "address": "https://8.8.8.8/dns-query",
         "tag": "remote-dns"
       },
@@ -16,7 +24,7 @@
         "address": "8.8.8.8",
         "domains": [
           "full:www.buydomains.com",
-          "full:www.buydomains.com"
+          "full:www.speedtest.net"
         ],
         "skipFallback": true
       }
@@ -26,7 +34,7 @@
   },
   "inbounds": [
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10808,
       "protocol": "mixed",
       "settings": {
@@ -36,7 +44,8 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ],
         "enabled": true,
         "routeOnly": true
@@ -44,7 +53,7 @@
       "tag": "mixed-in"
     },
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -61,7 +70,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.buydomains.com",
+            "address": "104.18.152.229",
             "port": 443,
             "users": [
               {
@@ -75,16 +84,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
-          "path": "/vl/7DVyspFcHCItFIhX5EYUQdGx?ed=2560"
+          "host": "e2fccb1q10kfbcyguod5vta1.game4090tak.workers.dev",
+          "path": "/vl/7tmJXWsUh1akDZdspWlIjz?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
+          "serverName": "E2fCCb1Q10kFBcyguoD5vtA1.GaMe4090tak.worKErs.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -103,7 +113,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.00",
+            "address": "172.67.73.11",
             "port": 443,
             "users": [
               {
@@ -126,7 +136,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -145,7 +156,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cookiebot.com",
+            "address": "104.17.71.185",
             "port": 443,
             "users": [
               {
@@ -168,7 +179,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -187,7 +199,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Unbounce.com",
+            "address": "104.18.195.39",
             "port": 443,
             "users": [
               {
@@ -210,7 +222,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -229,7 +242,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "Thalia.de",
+            "address": "88.216.67.54",
             "port": 443,
             "users": [
               {
@@ -252,7 +265,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -271,7 +285,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "165.215.250.21",
+            "address": "165.215.250.1",
             "port": 443,
             "users": [
               {
@@ -294,7 +308,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -313,7 +328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ringcentral.com",
+            "address": "194.156.26.6",
             "port": 443,
             "users": [
               {
@@ -336,7 +351,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -355,7 +371,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.181.197.00",
+            "address": "199.181.197.11",
             "port": 443,
             "users": [
               {
@@ -378,7 +394,8 @@
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -391,174 +408,6 @@
         }
       },
       "tag": "proxy-8"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.156.26.00",
-            "port": 443,
-            "users": [
-              {
-                "id": "2a74f2d1-f0c8-425a-8bb8-939ef0e658b2",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "kt94w6jpxgln0qvalfdie09f6blsu.taki700games.workers.dev",
-          "path": "/vl/gZ30Ip6rk9ZfZLQCtGHygLB?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "Kt94w6jpXgln0QVaLfdIe09f6BlSU.TakI700GAmEs.WORKers.Dev",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-9"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.25.136.251",
-            "port": 443,
-            "users": [
-              {
-                "id": "75428e8e-b4a1-46fe-947a-62d3b329bac8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "oaea7-p3abzqnmn1536uv29ad.game900moon.workers.dev",
-          "path": "/vl/04RdWtTFvKLABLX5Epqst1aPckCHmb?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "OAEA7-p3AbzQNMn1536uv29Ad.gamE900MOoN.WoRkERS.DeV",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-10"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "199.181.197.00",
-            "port": 443,
-            "users": [
-              {
-                "id": "46436b4f-1e79-45a4-9923-3f7e505b942d",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "e2fccb1q10kfbcyguod5vta1.game4090tak.workers.dev",
-          "path": "/vl/7DVyspFcHCItFIhX5EYUQdGx?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "e2fCcB1q10KfBCyGUOD5vtA1.gAME4090taK.workeRS.DEv",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-11"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.56.30",
-            "port": 443,
-            "users": [
-              {
-                "id": "a028db68-7627-4c57-bb58-99610b66e617",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "uyw57gimatqmq3-rmqxrncfmh4x7wirt.takin1090game.workers.dev",
-          "path": "/vl/L87qWIiUK6wBjyhwpHsvu7S46u8kd3lN?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "Uyw57gImatqmq3-rMqXRNcFmh4X7WIRt.tAkIn1090Game.woRKERS.dEV",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-12"
     },
     {
       "protocol": "dns",
@@ -663,7 +512,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "20s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "policy": {
