@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L 2 - FIX 41 🔴",
+  "remarks": "FOR ALL2 - FIX 44 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -65,7 +65,7 @@
             "port": 443,
             "users": [
               {
-                "id": "46436b4f-1e79-45a4-9923-3f7e505b942d",
+                "id": "e411af7a-9f9e-931c-6132-ff0100000000",
                 "encryption": "none"
               }
             ]
@@ -75,12 +75,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
-          "path": "/vl/7DVyspFcHCItFIhX5EYUQdGx?ed=2560"
+          "host": "smart-fast-277.game4090taking.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "fSfwerfEverrTfwrfPwofVVenkIfvNertiGuinBneIwo.gAmeinGforAllOn.sitE",
+          "serverName": "smart-fast-277.game4090taking.wOrkers.dev",
           "fingerprint": "chrome",
           "": [
             ""
@@ -119,7 +119,7 @@
             "port": 443,
             "users": [
               {
-                "id": "41560473-1269-448f-bd1f-ce24110d2ad7",
+                "id": "313a0264-b768-c54b-8bfb-b43000000000",
                 "encryption": "none"
               }
             ]
@@ -129,12 +129,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "2wu551rg3xw7ksvopg33lap-k.tak100gamer.workers.dev",
-          "path": "/vl/MC9opi2Z5v1rk7XeeJ6I06Ksr?ed=2560"
+          "host": "turbo-fast-103.tak100gagssa.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "2wu551RG3XW7kSVOPg33lAp-k.tAK100gAmer.WORKErS.dEV",
+          "serverName": "turbo-fast-103.tak100gagssa.wOrkers.dev",
           "fingerprint": "chrome",
           "": [
             ""
@@ -173,7 +173,7 @@
             "port": 443,
             "users": [
               {
-                "id": "0bc958f4-e68c-4322-ad1f-1c2578581541",
+                "id": "e15da924-475f-fefa-4b32-ace400000000",
                 "encryption": "none"
               }
             ]
@@ -183,12 +183,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "8lzfgj5zk3mk6aseioy2frc.wrfwsf9w4869t.workers.dev",
-          "path": "/vl/ya1I8WNyIAgJdiwGnj3Ag9yVqHV?ed=2560"
+          "host": "fast-sky-487.wrfwsf9w4869fewf.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "8lZfgJ5zK3mk6AsEIoY2fRc.WRfwSf9W4869T.WORkers.dEv",
+          "serverName": "fast-sky-487.wrfwsf9w4869fewf.wOrkers.dev",
           "fingerprint": "chrome",
           "": [
             ""
