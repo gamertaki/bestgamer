@@ -1,5 +1,5 @@
 {
-  "remarks": "HOOR 1 Hamrah - FIX 3 ✅ ",
+  "remarks": "HOOR 1 Hamrah - FIX 9 ✅ ",
   "version": {
     "min": "26.2.6"
   },
@@ -74,7 +74,7 @@
             "port": 443,
             "users": [
               {
-                "id": "dbed682f-13d2-448c-a717-826d2a8b19b9",
+                "id": "29f76c2e-97f7-c3e1-81cf-bcf300000000",
                 "encryption": "none"
               }
             ]
@@ -84,17 +84,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "lov9ksgpg8b43l6mq.drfwnfqfsgfws.workers.dev",
-          "path": "/vl/bTCc9onyeScvu7HfDWjIw?ed=2560"
+          "host": "sky-turbo-111.hooora200e.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Lov9ksgPG8b43l6MQ.DrFwNFqFSgfws.WoRKers.DEv",
+          "serverName": "sky-turbo-111.hooora200e.wOrkers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -117,7 +117,7 @@
             "port": 443,
             "users": [
               {
-                "id": "316f720d-1aad-4342-9830-b3a688977630",
+                "id": "8f706226-14bc-0fdb-7bec-980b00000000",
                 "encryption": "none"
               }
             ]
@@ -127,17 +127,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "sweet-term-5433.ceniyeb245.workers.dev",
-          "path": "/eyJqdW5rIjoiSGVua3pyZ3BtRURZYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "pixel-sky-381.gfegefs222.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "SwEeT-tERm-5433.cENiYeB245.wORKeRS.DeV",
+          "serverName": "pixel-sky-381.gfegefs222.wOrkers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -160,7 +160,7 @@
             "port": 443,
             "users": [
               {
-                "id": "ace73326-4123-425d-a680-fe3b9708a853",
+                "id": "5acc31b2-c49f-f604-60e6-8b3500000000",
                 "encryption": "none"
               }
             ]
@@ -170,17 +170,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "ng-2kgx-v2ixkvvftaeri.hoor300b.workers.dev",
-          "path": "/vl/M9y4JJKdcz6VnJLWsxPyMIpCoHs7Pp?ed=2560"
+          "host": "fast-sky-152.hoor25425.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Ng-2kGx-V2IXKvVftAeRi.HOor300b.WoRkeRS.dEv",
+          "serverName": "fast-sky-152.hoor25425.wOrkers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -203,7 +203,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8d32a0ea-cba6-4ec6-98be-9c19087bea2b",
+                "id": "8735884d-4105-6c9d-4f75-936d00000000",
                 "encryption": "none"
               }
             ]
@@ -213,17 +213,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "eh0pbx0uszzt4vaszh6sfdpioq96.hoor600w.workers.dev",
-          "path": "/vl/NJt4FuAqWfj8vrsO8jJz6hWKHp4iyoym?ed=2560"
+          "host": "shield-smart-972.kingbestgamtre.workers.dev",
+          "path": "/sync"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Eh0PbX0Uszzt4vAsZH6SfDPiOq96.Hoor600W.woRKErs.dEv",
+          "serverName": "shield-smart-972.kingbestgamtre.wOrkers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -266,7 +266,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -309,7 +309,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -352,7 +352,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -395,7 +395,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
