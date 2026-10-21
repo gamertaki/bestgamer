@@ -1,125 +1,42 @@
 {
+  "remarks": "HOOR 1 - FIX 14 ✅ ",
+  "version": {
+    "min": "26.2.6"
+  },
+  "log": {
+    "loglevel": "warning"
+  },
   "dns": {
-    "hosts": {
-      "geosite:category-ads-all": "127.0.0.1",
-      "domain:googleapis.cn": "googleapis.com",
-      "dns.alidns.com": [
-        "223.5.5.5",
-        "223.6.6.6",
-        "2400:3200::1",
-        "2400:3200:baba::1"
-      ],
-      "dns.sse.cisco.com": [
-        "208.67.220.220",
-        "208.67.222.222",
-        "2620:119:35::35",
-        "2620:119:53::53"
-      ],
-      "dns.umbrella.com": [
-        "208.67.220.220",
-        "208.67.222.222",
-        "2620:119:35::35",
-        "2620:119:53::53"
-      ],
-      "one.one.one.one": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "1dot1dot1dot1.cloudflare-dns.com": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "dns.cloudflare.com": [
-        "162.159.61.8",
-        "172.64.41.8",
-        "2a06:98c1:52::8",
-        "2803:f800:53::8"
-      ],
-      "cloudflare-dns.com": [
-        "104.16.248.249",
-        "104.16.249.249",
-        "2606:4700::6810:f8f9",
-        "2606:4700::6810:f9f9"
-      ],
-      "engage.cloudflareclient.com": [
-        "162.159.192.1",
-        "2606:4700:d0::a29f:c001"
-      ],
-      "doh.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
-      "dot.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ],
-      "dns.quad9.net": [
-        "9.9.9.9",
-        "149.112.112.112",
-        "2620:fe::fe",
-        "2620:fe::9"
-      ],
-      "dns.sb": [
-        "45.11.45.11",
-        "185.222.222.222",
-        "2a09::",
-        "2a11::"
-      ],
-      "common.dot.dns.yandex.net": [
-        "77.88.8.8",
-        "77.88.8.1",
-        "2a02:6b8::feed:0ff",
-        "2a02:6b8:0:1::feed:0ff"
-      ]
-    },
     "servers": [
       {
         "address": "fakedns",
         "domains": [
-          "geosite:cn",
-          "geosite:private",
-          "domain:ir",
-          "geosite:category-ir"
-        ]
-      },
-      "https://dns.google/dns-query",
-      {
-        "address": "localhost",
-        "domains": [
-          "geosite:private"
+          "full:www.buydomains.com",
+          "full:www.speedtest.net"
         ],
-        "finalQuery": true,
-        "skipFallback": true,
-        "tag": "domestic-dns_1_0"
+        "skipFallback": false
       },
       {
-        "address": "localhost",
+        "address": "https://8.8.8.8/dns-query",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
         "domains": [
-          "domain:ir",
-          "geosite:category-ir"
+          "full:www.buydomains.com",
+          "full:www.speedtest.net"
         ],
-        "finalQuery": true,
-        "skipFallback": true,
-        "tag": "domestic-dns_2_0"
+        "skipFallback": true
       }
     ],
-    "tag": "dns-module"
+    "queryStrategy": "UseIP",
+    "tag": "dns"
   },
   "inbounds": [
     {
       "listen": "127.0.0.1",
       "port": 10808,
-      "protocol": "socks",
+      "protocol": "mixed",
       "settings": {
         "auth": "noauth",
         "udp": true
@@ -128,177 +45,426 @@
         "destOverride": [
           "http",
           "tls",
-          "quic",
           "fakedns"
         ],
         "enabled": true,
-        "routeOnly": false
+        "routeOnly": true
       },
-      "tag": "socks"
+      "tag": "mixed-in"
     },
     {
-      "protocol": "tun",
+      "listen": "127.0.0.1",
+      "port": 10853,
+      "protocol": "dokodemo-door",
       "settings": {
-        "mtu": 1500,
-        "name": "xray0"
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
       },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ],
-        "enabled": true,
-        "routeOnly": false
-      },
-      "tag": "tun"
+      "tag": "dns-in"
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
       "protocol": "vless",
       "settings": {
-        "address": "104.18.152.229",
-        "encryption": "none",
-        "flow": "",
-        "id": "29f76c2e-97f7-c3e1-81cf-bcf300000000",
-        "port": 443
+        "vnext": [
+          {
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "port": 443,
+            "users": [
+              {
+                "id": "29f76c2e-97f7-c3e1-81cf-bcf300000000",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
       },
       "streamSettings": {
         "network": "ws",
+        "wsSettings": {
+          "host": "sky-turbo-111.hooora200e.workers.dev",
+          "path": "/sync"
+        },
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
+          "serverName": "sky-turbo-111.hooora200e.wOrkers.dev",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "h2c://1.1.1.1/dns-query",
-          "echSockopt": {
-            "dialerProxy": "tls-repack-dns"
-          },
-          "fingerprint": "chrome",
-          "serverName": "sky-turbo-111.hooora200e.wOrkers.dev"
+          "echConfigList": ""
         },
-        "wsSettings": {
-          "host": "sky-turbo-111.hooora200e.wOrkers.dev",
-          "path": "/sync"
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
         }
       },
-      "tag": "proxy"
+      "tag": "proxy-1"
     },
     {
-      "protocol": "freedom",
-      "tag": "direct"
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "port": 443,
+            "users": [
+              {
+                "id": "8f706226-14bc-0fdb-7bec-980b00000000",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "pixel-sky-381.gfegefs222.workers.dev",
+          "path": "/sync"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pixel-sky-381.gfegefs222.wOrkers.dev",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": ""
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-2"
     },
     {
-      "protocol": "blackhole",
-      "tag": "block"
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "port": 443,
+            "users": [
+              {
+                "id": "5acc31b2-c49f-f604-60e6-8b3500000000",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "fast-sky-152.hoor25425.workers.dev",
+          "path": "/sync"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fast-sky-152.hoor25425.wOrkers.dev",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": ""
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "port": 443,
+            "users": [
+              {
+                "id": "8735884d-4105-6c9d-4f75-936d00000000",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "shield-smart-972.kingbestgamtre.workers.dev",
+          "path": "/sync"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "shield-smart-972.kingbestgamtre.wOrkers.dev",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": ""
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "port": 443,
+            "users": [
+              {
+                "id": "04951f45-fb44-4e4f-a39e-0ee45116c896",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "hidden-silence-147c.kingbestgame.workers.dev",
+          "path": "/eyJqdW5rIjoiRGJ6cHk4YVhFYkJUNHF3MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hIddeN-siLeNCe-147c.kinGBestgame.WoRkeRS.DEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": ""
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "165.215.250.1",
+            "port": 443,
+            "users": [
+              {
+                "id": "d78ddd39-2aaa-4ce5-91a5-c084506a1d5c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "7tro0dfh9yiv34i3fecvyb8.hoo700rer.workers.dev",
+          "path": "/vl/fRZPUnFqaNwW8V9A8bzYCeefgGrrpzQ?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "7TRO0DFH9yIV34I3FecVYb8.HoO700rER.WORKErs.DeV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-6"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.156.26.6",
+            "port": 443,
+            "users": [
+              {
+                "id": "a661bc47-ddf2-4da5-86e1-675c96fa4f72",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "toi0b3o03h5k6i32nqyr26i8c58.hotttr600ew.workers.dev",
+          "path": "/vl/pzMcygckRh1gh1Iy03d9c?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tOi0B3o03h5k6I32nqyr26I8c58.hoTTtr600EW.WOrKERS.dEV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "199.181.197.11",
+            "port": 443,
+            "users": [
+              {
+                "id": "c2f96926-ce0c-488f-8f6c-0285e978d789",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "i2k7zad201sxkvpqvvaerz90f.erf801fw.workers.dev",
+          "path": "/vl/AvPdFoShC7fJPXQV8?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "i2k7zAD201SXkvPqVvAeRz90f.ERF801fw.woRKers.DEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://208.67.222.222"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-8"
     },
     {
       "protocol": "dns",
       "settings": {
-        "userLevel": 12
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
       },
       "tag": "dns-out"
     },
     {
-      "tag": "tls-repack-dns",
-      "protocol": "direct",
+      "protocol": "freedom",
       "settings": {
-        "redirect": "1.1.1.1:443"
+        "domainStrategy": "UseIP"
       },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.microsoft.com",
-          "verifyPeerCertByName": "fromMitM,www.microsoft.com",
-          "alpn": [
-            "fromMitM"
-          ],
-          "fingerprint": "chrome"
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
         }
-      }
+      },
+      "tag": "block"
     }
   ],
-  "policy": {
-    "levels": {
-      "0": {
-        "downlinkOnly": 0,
-        "uplinkOnly": 0
-      },
-      "12": {
-        "connIdle": 12,
-        "downlinkOnly": 0,
-        "uplinkOnly": 0
-      }
-    }
-  },
-  "remarks": "Hoor ( Last Update V2RayNG ) ✅",
   "routing": {
-    "domainStrategy": "AsIs",
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "inboundTag": [
-          "tun"
+          "mixed-in"
+        ],
+        "port": 53,
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns-in"
         ],
         "outboundTag": "dns-out",
-        "port": "53",
         "type": "field"
       },
       {
         "inboundTag": [
-          "socks"
+          "remote-dns"
         ],
-        "outboundTag": "dns-out",
-        "port": "53",
+        "balancerTag": "all-proxies",
         "type": "field"
       },
       {
         "inboundTag": [
-          "domestic-dns_1_0",
-          "domestic-dns_2_0"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns-module"
-        ],
-        "outboundTag": "proxy",
-        "type": "field"
-      },
-      {
-        "outboundTag": "direct",
-        "protocol": [
-          "bittorrent"
-        ],
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "port": "443",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "ext:geoip-only-cn-private.dat:private"
+          "dns"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -311,20 +477,52 @@
         "type": "field"
       },
       {
-        "domain": [
-          "domain:ir",
-          "geosite:category-ir"
+        "ip": [
+          "geoip:private"
         ],
         "outboundTag": "direct",
         "type": "field"
       },
       {
-        "ip": [
-          "geoip:ir"
-        ],
-        "outboundTag": "direct",
+        "network": "udp",
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
+        "balancerTag": "all-proxies",
         "type": "field"
       }
+    ],
+    "balancers": [
+      {
+        "tag": "all-proxies",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        },
+        "fallbackTag": "proxy-2"
+      }
     ]
+  },
+  "observatory": {
+    "subjectSelector": [
+      "proxy"
+    ],
+    "probeUrl": "https://www.gstatic.com/generate_204",
+    "probeInterval": "30s",
+    "enableConcurrency": true
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "connIdle": 300,
+        "handshake": 4,
+        "uplinkOnly": 1,
+        "downlinkOnly": 1
+      }
+    }
   }
 }
