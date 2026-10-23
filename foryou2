@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 2 - FIX 54 🔴",
+  "remarks": "F O R - Y O U - 2 - FIX 55 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -61,7 +61,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.203.00",
+            "address": "104.21.43.19",
             "port": 443,
             "users": [
               {
@@ -115,7 +115,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.210.00",
+            "address": "162.159.159.66",
             "port": 443,
             "users": [
               {
@@ -169,7 +169,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.193.30.0",
+            "address": "88.216.67.54",
             "port": 443,
             "users": [
               {
@@ -223,7 +223,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.155",
+            "address": "185.193.30.0",
             "port": 443,
             "users": [
               {
@@ -277,7 +277,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.203.00",
+            "address": "104.17.238.195",
             "port": 443,
             "users": [
               {
@@ -331,7 +331,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.210.00",
+            "address": "172.67.171.145",
             "port": 443,
             "users": [
               {
@@ -385,7 +385,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.193.30.0",
+            "address": "141.101.121.2",
             "port": 443,
             "users": [
               {
@@ -439,7 +439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.155",
+            "address": "188.114.96.45",
             "port": 443,
             "users": [
               {
@@ -493,7 +493,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.203.00",
+            "address": "104.21.43.120",
             "port": 443,
             "users": [
               {
@@ -547,7 +547,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.210.00",
+            "address": "88.216.67.54",
             "port": 443,
             "users": [
               {
@@ -601,7 +601,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.193.30.0",
+            "address": "104.21.43.160",
             "port": 443,
             "users": [
               {
