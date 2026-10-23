@@ -1,5 +1,5 @@
 {
-  "remarks": "For You Hamrah - FIX 2 ✅ ",
+  "remarks": "F O R - Y O U 1 - FIX 80 ✅ ",
   "version": {
     "min": "26.2.6"
   },
@@ -12,7 +12,7 @@
         "address": "fakedns",
         "domains": [
           "full:www.buydomains.com",
-          "full:www.speedtest.net"
+          "full:www.buydomains.com"
         ],
         "skipFallback": false
       },
@@ -24,7 +24,7 @@
         "address": "8.8.8.8",
         "domains": [
           "full:www.buydomains.com",
-          "full:www.speedtest.net"
+          "full:www.buydomains.com"
         ],
         "skipFallback": true
       }
@@ -70,11 +70,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.152.229",
+            "address": "www.buydomains.com",
             "port": 443,
             "users": [
               {
-                "id": "65882a65-44f8-4e33-88af-ceda27eb20c0",
+                "id": "50414e45-4c5f-5a45-5553-38441c0ef0f0",
                 "encryption": "none"
               }
             ]
@@ -84,17 +84,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "ef0xq0r-6-wv2bgbf5zv707bcl4j4.gameworks200.workers.dev",
-          "path": "/vl/t8Gcz0fTo1pu7K2xGJ0fmGCaVTvp?ed=2560"
+          "host": "lizufueiu7hs.gameworgame2.workers.Dev",
+          "path": "/stream/PANEL_ZEUS/38441c0ef0f0/loc-0"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Ef0Xq0R-6-Wv2bGBf5zv707bCL4J4.GamEwORKS200.WorKeRS.DEV",
+          "serverName": "lizufueiu7hs.gameworgame2.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -113,11 +113,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.11",
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
             "port": 443,
             "users": [
               {
-                "id": "f07636ac-e131-44a0-a557-3c8b36819322",
+                "id": "50414e45-4c5f-5a45-5553-3716c31ebd02",
                 "encryption": "none"
               }
             ]
@@ -127,17 +127,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "fyu56chfoue5zozfnjdq.progamingtak.workers.dev",
-          "path": "/vl/bcVlfUWUCzBlvsVdJru?ed=2560"
+          "host": "nozk93e4usks.progaming3o.workers.Dev",
+          "path": "/stream/PANEL_ZEUS/3716c31ebd02/loc-1"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "fyu56ChFOUE5ZOZfNjDQ.PROGamingtaK.WOrKERs.dev",
+          "serverName": "nozk93e4usks.progaming3o.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -156,11 +156,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.71.185",
+            "address": "104.21.74.18",
             "port": 443,
             "users": [
               {
-                "id": "5716c75f-194c-4ab1-a77a-4a0717fc473e",
+                "id": "50414e45-4c5f-5a45-5553-2b737ffd08fa",
                 "encryption": "none"
               }
             ]
@@ -170,17 +170,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "llpzyjs-x0bz8vu8r0opa4u5h2e3udx.fot201game.workers.dev",
-          "path": "/vl/HxwJZ4CDOA6Xy6oFtdlxCJ?ed=2560"
+          "host": "bcz0bnequuss.gametyrh20e2.workers.deV",
+          "path": "/stream/PANEL_ZEUS/2b737ffd08fa/loc-0"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "llpzyjS-X0bZ8vU8r0opA4U5h2E3udx.FoT201gAMe.worKeRS.dev",
+          "serverName": "bcz0bnequuss.gametyrh20e2.workers.deV",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": "Crypto.cloudflare.com+udp://77.88.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -199,11 +199,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.195.39",
+            "address": "172.67.73.00",
             "port": 443,
             "users": [
               {
-                "id": "6e3b85d4-3c5f-47df-bff5-d9da4774d056",
+                "id": "50414e45-4c5f-5a45-5553-49055dd7a227",
                 "encryption": "none"
               }
             ]
@@ -213,17 +213,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "w2w-clvtb5k9763l6zbsrt-u83id.gamertest202.workers.dev",
-          "path": "/vl/EQUHmhbbDcw8QSygeWN4pE?ed=2560"
+          "host": "70zia4elut7s.tersg587ga2min.workers.Dev",
+          "path": "/stream/PANEL_ZEUS/49055dd7a227/loc-1"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "w2w-CLVtb5k9763l6zbsrt-U83iD.gamerTEST202.wORKErS.dev",
+          "serverName": "70zia4elut7s.tersg587ga2min.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -242,11 +242,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "88.216.67.54",
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
             "port": 443,
             "users": [
               {
-                "id": "91f13d4b-025e-4a13-b0ba-f6afabcb5b72",
+                "id": "50414e45-4c5f-5a45-5553-e6bcaf0852ac",
                 "encryption": "none"
               }
             ]
@@ -256,17 +256,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "frosty-voice-6067.rtegfsgds203.workers.dev",
-          "path": "/eyJqdW5rIjoiRDdZa3JMV3hqZEh3ZDciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "host": "9dzn3vegu7ps.fewesfr208eervs.workers.Dev",
+          "path": "/stream/PANEL_ZEUS/e6bcaf0852ac/loc-0"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "FrosTY-vOICe-6067.RTEgfsGDs203.worKers.DEV",
+          "serverName": "9dzn3vegu7ps.fewesfr208eervs.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -289,7 +289,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8e5eb7b4-e412-4027-a9b8-3ddaf214a536",
+                "id": "50414e45-4c5f-5a45-5553-974cf37772bb",
                 "encryption": "none"
               }
             ]
@@ -299,17 +299,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "c09a27io47mjunfryaejt3b.tersgame204.workers.dev",
-          "path": "/vl/ay12ZgCJYzNwmzAql?ed=2560"
+          "host": "yfz9dmeruxus.wfewf209v5ef.workers.dev",
+          "path": "/stream/PANEL_ZEUS/974cf37772bb/loc-1"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "c09A27io47mjuNFrYaejT3b.TersGAME204.WorkErS.Dev",
+          "serverName": "yfz9dmeruxus.wfewf209v5ef.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -332,7 +332,7 @@
             "port": 443,
             "users": [
               {
-                "id": "8fff9102-a5d4-40ee-9344-cbf7132e1bb3",
+                "id": "50414e45-4c5f-5a45-5553-10609203787d",
                 "encryption": "none"
               }
             ]
@@ -342,17 +342,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "holy-disk-6703.rtgeryegd205.workers.dev",
-          "path": "/eyJqdW5rIjoiSWZSVFd2TWpGaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "host": "rqzt0xexu5ms.rwf5sggee1geeewwrfg.workers.dev",
+          "path": "/stream/PANEL_ZEUS/10609203787d/loc-1"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hoLY-dIsK-6703.RTGEryegd205.wOrkErs.Dev",
+          "serverName": "rqzt0xexu5ms.rwf5sggee1geeewwrfg.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -375,7 +375,7 @@
             "port": 443,
             "users": [
               {
-                "id": "663cbf80-011b-4111-a74d-eaba04ac8291",
+                "id": "50414e45-4c5f-5a45-5553-e759cf52c6be",
                 "encryption": "none"
               }
             ]
@@ -385,17 +385,17 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "kumvlabcer0r2cwu.takigame206be.workers.dev",
-          "path": "/vl/gsyfeANWhUoaEUUoap5smTYDJ5mN4MFy?ed=2560"
+          "host": "9lz3z5efu8os.gamewizardbac1k.workers.Dev",
+          "path": "/stream/PANEL_ZEUS/e759cf52c6be/loc-0"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "kumvlabcEr0r2cWu.tAKiGaMe206bE.wORKErs.dev",
+          "serverName": "9lz3z5efu8os.gamewizardbac1k.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ],
-          "echConfigList": "udp://8.8.8.8"
+          "echConfigList": ""
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -512,7 +512,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "30s",
+    "probeInterval": "20s",
     "enableConcurrency": true
   },
   "policy": {
@@ -523,11 +523,6 @@
         "uplinkOnly": 1,
         "downlinkOnly": 1
       }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
     }
-  },
-  "stats": {}
+  }
 }
