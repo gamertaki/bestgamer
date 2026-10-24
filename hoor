@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 1 - FIX 75 🟢 ",
+  "remarks": "H O O R - 1 - FIX 76 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -21,7 +21,7 @@
         "tag": "remote-dns"
       },
       {
-        "address": "8.8.8.8",
+        "address": "1.1.1.1",
         "domains": [
           "full:www.buydomains.com",
           "full:www.buydomains.com"
