@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 1 - FIX 60 🟢 ",
+  "remarks": "F O R - A L L - 1 - FIX 61 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -113,7 +113,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "address": "[2606:4700:d1::f79f:55d5:4481:d0e8]",
             "port": 443,
             "users": [
               {
@@ -512,7 +512,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "20s",
+    "probeInterval": "03s",
     "enableConcurrency": true
   },
   "policy": {
