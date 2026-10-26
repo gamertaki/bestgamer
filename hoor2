@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 2 - FIX 55 🔴",
+  "remarks": "H O O R - 2 - FIX 56 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -76,7 +76,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "hdza42etuecs.drfwnfweel1.workers.dev",
-          "path": "/stream/PANEL_ZEUS/898445b70b96/loc-0"
+          "path": "/stream/PANEL_ZEUS/898445b70b96"
         },
         "security": "tls",
         "tlsSettings": {
@@ -130,7 +130,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "wdzr0aeoules.hooora200e.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c7bcc599cdf3/loc-1"
+          "path": "/stream/PANEL_ZEUS/c7bcc599cdf3"
         },
         "security": "tls",
         "tlsSettings": {
@@ -184,7 +184,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "6azruoeguxbs.gfegefs222.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1062229c08ce/loc-1"
+          "path": "/stream/PANEL_ZEUS/1062229c08ce"
         },
         "security": "tls",
         "tlsSettings": {
@@ -238,7 +238,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "0bz3zue6ucfs.hoor25425.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1655333455d0/loc-1"
+          "path": "/stream/PANEL_ZEUS/1655333455d0"
         },
         "security": "tls",
         "tlsSettings": {
@@ -292,7 +292,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "4iz1q9enud3s.kingbestgamtre.workers.dev",
-          "path": "/stream/PANEL_ZEUS/9b7e05edf874/loc-3"
+          "path": "/stream/PANEL_ZEUS/9b7e05edf874"
         },
         "security": "tls",
         "tlsSettings": {
@@ -346,7 +346,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "jtzf1gemuo7s.hooor6fswf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/d526445f9f64/loc-1"
+          "path": "/stream/PANEL_ZEUS/d526445f9f64"
         },
         "security": "tls",
         "tlsSettings": {
@@ -400,7 +400,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "hnz693eiu86s.hooera7542.workers.dev",
-          "path": "/stream/PANEL_ZEUS/bc718e7bac83/loc-1"
+          "path": "/stream/PANEL_ZEUS/bc718e7bac83"
         },
         "security": "tls",
         "tlsSettings": {
@@ -454,7 +454,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "jnz168edutos.testhood580.workers.dev",
-          "path": "/stream/PANEL_ZEUS/cfcf46925910/loc-1"
+          "path": "/stream/PANEL_ZEUS/cfcf46925910"
         },
         "security": "tls",
         "tlsSettings": {
@@ -508,7 +508,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "hdza42etuecs.drfwnfweel1.workers.dev",
-          "path": "/stream/PANEL_ZEUS/898445b70b96/loc-0"
+          "path": "/stream/PANEL_ZEUS/898445b70b96"
         },
         "security": "tls",
         "tlsSettings": {
@@ -562,7 +562,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "wdzr0aeoules.hooora200e.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c7bcc599cdf3/loc-1"
+          "path": "/stream/PANEL_ZEUS/c7bcc599cdf3"
         },
         "security": "tls",
         "tlsSettings": {
@@ -616,7 +616,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "6azruoeguxbs.gfegefs222.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1062229c08ce/loc-1"
+          "path": "/stream/PANEL_ZEUS/1062229c08ce"
         },
         "security": "tls",
         "tlsSettings": {
@@ -670,7 +670,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "0bz3zue6ucfs.hoor25425.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1655333455d0/loc-1"
+          "path": "/stream/PANEL_ZEUS/1655333455d0"
         },
         "security": "tls",
         "tlsSettings": {
