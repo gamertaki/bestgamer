@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 84 🟢 ",
+  "remarks": "F O R - Y O U - 1 - FIX 85 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -7,9 +7,9 @@
     "loglevel": "warning"
   },
   "dns": {
-    "servers": [
+    "": [
       {
-        "address": "",
+        "": "",
         "": [
           "",
           ""
