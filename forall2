@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 2 - FIX 53 🔴",
+  "remarks": "F O R - A L L - 2 - FIX 54 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -76,7 +76,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "52z4vtewuass.game4090taking.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c6cf2d7fdffc/loc-1"
+          "path": "/stream/PANEL_ZEUS/c6cf2d7fdffc"
         },
         "security": "tls",
         "tlsSettings": {
@@ -130,7 +130,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "kqz1goe9uqgs.tak100gagssa.workers.dev",
-          "path": "/stream/PANEL_ZEUS/975ff057111d/loc-1"
+          "path": "/stream/PANEL_ZEUS/975ff057111d"
         },
         "security": "tls",
         "tlsSettings": {
@@ -184,7 +184,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "1vzc56efufbs.wrfwsf9w4869fewf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/ca19481d225b/loc-1"
+          "path": "/stream/PANEL_ZEUS/ca19481d225b"
         },
         "security": "tls",
         "tlsSettings": {
@@ -238,7 +238,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "3sz6lmeduzfs.takin1090gamess.workers.dev",
-          "path": "/stream/PANEL_ZEUS/f4a2c2db4300/loc-1"
+          "path": "/stream/PANEL_ZEUS/f4a2c2db4300"
         },
         "security": "tls",
         "tlsSettings": {
@@ -292,7 +292,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "2czptgeju91s.taki2056wsbv.workers.dev",
-          "path": "/stream/PANEL_ZEUS/59b5581b07f6/loc-0"
+          "path": "/stream/PANEL_ZEUS/59b5581b07f6"
         },
         "security": "tls",
         "tlsSettings": {
@@ -346,7 +346,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "9wz8uae7u6ks.take33054eweert.workers.dev",
-          "path": "/stream/PANEL_ZEUS/7978ed0e6a74/loc-1"
+          "path": "/stream/PANEL_ZEUS/7978ed0e6a74"
         },
         "security": "tls",
         "tlsSettings": {
@@ -400,7 +400,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "7uz4uaeguq2s.gamegamwork.workers.dev",
-          "path": "/stream/PANEL_ZEUS/cb583c762bc6/loc-0"
+          "path": "/stream/PANEL_ZEUS/cb583c762bc6"
         },
         "security": "tls",
         "tlsSettings": {
@@ -454,7 +454,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "3qzqe3e5uwus.testgameing.workers.dev",
-          "path": "/stream/PANEL_ZEUS/6e1fcd32407a/loc-1"
+          "path": "/stream/PANEL_ZEUS/6e1fcd32407a"
         },
         "security": "tls",
         "tlsSettings": {
@@ -508,7 +508,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "52z4vtewuass.game4090taking.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c6cf2d7fdffc/loc-1"
+          "path": "/stream/PANEL_ZEUS/c6cf2d7fdffc"
         },
         "security": "tls",
         "tlsSettings": {
@@ -562,7 +562,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "kqz1goe9uqgs.tak100gagssa.workers.dev",
-          "path": "/stream/PANEL_ZEUS/975ff057111d/loc-1"
+          "path": "/stream/PANEL_ZEUS/975ff057111d"
         },
         "security": "tls",
         "tlsSettings": {
@@ -616,7 +616,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "1vzc56efufbs.wrfwsf9w4869fewf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/ca19481d225b/loc-1"
+          "path": "/stream/PANEL_ZEUS/ca19481d225b"
         },
         "security": "tls",
         "tlsSettings": {
@@ -670,7 +670,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "3sz6lmeduzfs.takin1090gamess.workers.dev",
-          "path": "/stream/PANEL_ZEUS/f4a2c2db4300/loc-1"
+          "path": "/stream/PANEL_ZEUS/f4a2c2db4300"
         },
         "security": "tls",
         "tlsSettings": {
