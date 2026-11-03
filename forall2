@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 2 - FIX 54 🔴",
+  "remarks": "F O R - A L L - 2 - FIX 55 🔴",
   "version": {
     "min": "26.2.6"
   },
@@ -9,11 +9,11 @@
   "dns": {
     "servers": [
       {
-        "address": "mgaru.dev+udp://9.9.9.11",
+        "address": "Crypto.cloudflare.com+udp://77.88.8.8",
         "tag": "remote-dns"
       },
       {
-        "address": "mgaru.dev+udp://9.9.9.11",
+        "address": "Crypto.cloudflare.com+udp://77.88.8.8",
         "domains": [
           "full:www.buydomains.com",
           "full:www.buydomains.com"
@@ -807,7 +807,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "03s",
+    "probeInterval": "20s",
     "enableConcurrency": true
   },
   "policy": {
