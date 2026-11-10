@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 1 - FIX 71 🟢 ",
+  "remarks": "F O R - A L L - 1 - FIX 72 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -511,7 +511,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "45s",
+    "probeInterval": "01s",
     "enableConcurrency": true
   },
   "policy": {
