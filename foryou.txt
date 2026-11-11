@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 91 🟢 ",
+  "remarks": "F O R - Y O U - 1 - FIX 92 🟢 ",
   "version": {
     "min": "26.2.6"
   },
