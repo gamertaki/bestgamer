@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 1 - FIX 89 🟢 ",
+  "remarks": "H O O R - 1 - FIX 93 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -9,7 +9,6 @@
   "dns": {
     "": [
       {
-        "": "",
         "": [
           "",
           ""
@@ -74,7 +73,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-898445b70b96",
+                "id": "50414e45-4c5f-5a45-5553-40a64c75c2d7",
                 "encryption": "none"
               }
             ]
@@ -84,12 +83,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "hdza42etuecs.drfwnfweel1.workers.dev",
-          "path": "/stream/PANEL_ZEUS/898445b70b96"
+          "host": "28zappefu09s.drfwnfweel1.workers.dev",
+          "path": "/stream/PANEL_ZEUS/40a64c75c2d7"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hdza42etuecs.drfwnfweel1.workers.dev",
+          "serverName": "28zappefu09s.drfwnfweel1.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -113,11 +112,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "address": "[2606:4700:d1::f79f:55d5:4481:d0e8]",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-c7bcc599cdf3",
+                "id": "50414e45-4c5f-5a45-5553-e6561f48e7cc",
                 "encryption": "none"
               }
             ]
@@ -127,12 +126,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "wdzr0aeoules.hooora200e.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c7bcc599cdf3"
+          "host": "f3z1buerubds.hooora200e.workers.dev",
+          "path": "/stream/PANEL_ZEUS/e6561f48e7cc"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "wdzr0aeoules.hooora200e.workers.dev",
+          "serverName": "f3z1buerubds.hooora200e.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -156,11 +155,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "178.104.19.178",
+            "address": "194.156.26.4",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-1062229c08ce",
+                "id": "50414e45-4c5f-5a45-5553-f494623affd9",
                 "encryption": "none"
               }
             ]
@@ -170,12 +169,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "6azruoeguxbs.gfegefs222.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1062229c08ce"
+          "host": "15z612etul8s.gfegefs222.workers.dev",
+          "path": "/stream/PANEL_ZEUS/f494623affd9"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "6azruoeguxbs.gfegefs222.workers.dev",
+          "serverName": "15z612etul8s.gfegefs222.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -199,11 +198,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.253.27.192",
+            "address": "194.156.26.20",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-1655333455d0",
+                "id": "50414e45-4c5f-5a45-5553-dc6122c43672",
                 "encryption": "none"
               }
             ]
@@ -213,12 +212,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "0bz3zue6ucfs.hoor25425.workers.dev",
-          "path": "/stream/PANEL_ZEUS/1655333455d0"
+          "host": "lgzjx7ebuios.hoor25425.workers.dev",
+          "path": "/stream/PANEL_ZEUS/dc6122c43672"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "0bz3zue6ucfs.hoor25425.workers.dev",
+          "serverName": "lgzjx7ebuios.hoor25425.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -242,11 +241,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:d1::f79f:55d5:4481:d0e8]",
+            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-9b7e05edf874",
+                "id": "50414e45-4c5f-5a45-5553-01011efc8d7f",
                 "encryption": "none"
               }
             ]
@@ -256,12 +255,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "4iz1q9enud3s.kingbestgamtre.workers.dev",
-          "path": "/stream/PANEL_ZEUS/9b7e05edf874"
+          "host": "smze2de1uk9s.hooera7542.workers.dev",
+          "path": "/stream/PANEL_ZEUS/01011efc8d7f"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "4iz1q9enud3s.kingbestgamtre.workers.dev",
+          "serverName": "smze2de1uk9s.hooera7542.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -289,7 +288,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-d526445f9f64",
+                "id": "50414e45-4c5f-5a45-5553-8573c142ba39",
                 "encryption": "none"
               }
             ]
@@ -299,12 +298,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "jtzf1gemuo7s.hooor6fswf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/d526445f9f64"
+          "host": "4hz8usexuaus.testhood580.workers.dev",
+          "path": "/stream/PANEL_ZEUS/8573c142ba39"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "jtzf1gemuo7s.hooor6fswf.workers.dev",
+          "serverName": "4hz8usexuaus.testhood580.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -328,11 +327,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.66.171",
+            "address": "188.253.27.192",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-bc718e7bac83",
+                "id": "50414e45-4c5f-5a45-5553-40a64c75c2d7",
                 "encryption": "none"
               }
             ]
@@ -342,12 +341,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "hnz693eiu86s.hooera7542.workers.dev",
-          "path": "/stream/PANEL_ZEUS/bc718e7bac83"
+          "host": "28zappefu09s.drfwnfweel1.workers.dev",
+          "path": "/stream/PANEL_ZEUS/40a64c75c2d7"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hnz693eiu86s.hooera7542.workers.dev",
+          "serverName": "28zappefu09s.drfwnfweel1.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -371,11 +370,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "176.118.214.216",
+            "address": "2606:4700:0:e6ee:56c9:b2ce:edfd:2416",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-cfcf46925910",
+                "id": "50414e45-4c5f-5a45-5553-e6561f48e7cc",
                 "encryption": "none"
               }
             ]
@@ -385,12 +384,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "jnz168edutos.testhood580.workers.dev",
-          "path": "/stream/PANEL_ZEUS/cfcf46925910"
+          "host": "f3z1buerubds.hooora200e.workers.dev",
+          "path": "/stream/PANEL_ZEUS/e6561f48e7cc"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "jnz168edutos.testhood580.workers.dev",
+          "serverName": "f3z1buerubds.hooora200e.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -512,7 +511,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "10s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "policy": {
