@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 1 - FIX 74 🟢 ",
+  "remarks": "F O R - A L L - 1 - FIX 78 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -73,7 +73,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-c6cf2d7fdffc",
+                "id": "50414e45-4c5f-5a45-5553-a24be4e0a097",
                 "encryption": "none"
               }
             ]
@@ -83,12 +83,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "52z4vtewuass.game4090taking.workers.dev",
-          "path": "/stream/PANEL_ZEUS/c6cf2d7fdffc"
+          "host": "7nzblteyufys.wrfwsf9w4869fewf.workers.dev",
+          "path": "/stream/PANEL_ZEUS/a24be4e0a097"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "52z4vtewuass.game4090taking.workers.dev",
+          "serverName": "7nzblteyufys.wrfwsf9w4869fewf.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -116,7 +116,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-975ff057111d",
+                "id": "50414e45-4c5f-5a45-5553-971015ec0d5a",
                 "encryption": "none"
               }
             ]
@@ -126,12 +126,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "kqz1goe9uqgs.tak100gagssa.workers.dev",
-          "path": "/stream/PANEL_ZEUS/975ff057111d"
+          "host": "9pzn8be4ubis.takin1090gamess.workers.dev",
+          "path": "/stream/PANEL_ZEUS/971015ec0d5a"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "kqz1goe9uqgs.tak100gagssa.workers.Dev",
+          "serverName": "9pzn8be4ubis.takin1090gamess.workers.Dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -155,11 +155,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "178.104.19.178",
+            "address": "194.156.26.4",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-ca19481d225b",
+                "id": "50414e45-4c5f-5a45-5553-bdb382f7e8bd",
                 "encryption": "none"
               }
             ]
@@ -169,12 +169,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "1vzc56efufbs.wrfwsf9w4869fewf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/ca19481d225b"
+          "host": "lczm25e3u17s.taki2056wsbv.workers.dev",
+          "path": "/stream/PANEL_ZEUS/bdb382f7e8bd"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "1vzc56efufbs.wrfwsf9w4869fewf.workers.dev",
+          "serverName": "lczm25e3u17s.taki2056wsbv.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -198,11 +198,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.253.27.192",
+            "address": "194.156.26.20",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-f4a2c2db4300",
+                "id": "50414e45-4c5f-5a45-5553-77c70407e13c",
                 "encryption": "none"
               }
             ]
@@ -212,12 +212,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "3sz6lmeduzfs.takin1090gamess.workers.dev",
-          "path": "/stream/PANEL_ZEUS/f4a2c2db4300"
+          "host": "rhz224e8u5cs.take33054eweert.workers.dev",
+          "path": "/stream/PANEL_ZEUS/77c70407e13c"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "3sz6lmeduzfs.takin1090gamess.workers.dev",
+          "serverName": "rhz224e8u5cs.take33054eweert.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -245,7 +245,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-59b5581b07f6",
+                "id": "50414e45-4c5f-5a45-5553-727f2bb5313c",
                 "encryption": "none"
               }
             ]
@@ -255,12 +255,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "2czptgeju91s.taki2056wsbv.workers.dev",
-          "path": "/stream/PANEL_ZEUS/59b5581b07f6"
+          "host": "wfz88eerub8s.gamegamwork.workers.dev",
+          "path": "/stream/PANEL_ZEUS/727f2bb5313c"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "2czptgeju91s.taki2056wsbv.workers.Dev",
+          "serverName": "wfz88eerub8s.gamegamwork.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -288,7 +288,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-7978ed0e6a74",
+                "id": "50414e45-4c5f-5a45-5553-ace78a32a9d7",
                 "encryption": "none"
               }
             ]
@@ -298,12 +298,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "9wz8uae7u6ks.take33054eweert.workers.dev",
-          "path": "/stream/PANEL_ZEUS/7978ed0e6a74"
+          "host": "i8zyo9eru5ws.drfwnfweel1.workers.dev",
+          "path": "/stream/PANEL_ZEUS/ace78a32a9d7"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "9wz8uae7u6ks.take33054eweert.workers.dev",
+          "serverName": "i8zyo9eru5ws.drfwnfweel1.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -327,11 +327,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.66.171",
+            "address": "188.253.27.192",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-cb583c762bc6",
+                "id": "50414e45-4c5f-5a45-5553-a24be4e0a097",
                 "encryption": "none"
               }
             ]
@@ -341,12 +341,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "7uz4uaeguq2s.gamegamwork.workers.dev",
-          "path": "/stream/PANEL_ZEUS/cb583c762bc6"
+          "host": "7nzblteyufys.wrfwsf9w4869fewf.workers.dev",
+          "path": "/stream/PANEL_ZEUS/a24be4e0a097"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7uz4uaeguq2s.gamegamwork.workers.Dev",
+          "serverName": "7nzblteyufys.wrfwsf9w4869fewf.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -370,11 +370,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "176.118.214.216",
+            "address": "2606:4700:0:e6ee:56c9:b2ce:edfd:2416",
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-6e1fcd32407a",
+                "id": "50414e45-4c5f-5a45-5553-971015ec0d5a",
                 "encryption": "none"
               }
             ]
@@ -384,12 +384,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "3qzqe3e5uwus.testgameing.workers.dev",
-          "path": "/stream/PANEL_ZEUS/6e1fcd32407a"
+          "host": "9pzn8be4ubis.takin1090gamess.workers.dev",
+          "path": "/stream/PANEL_ZEUS/971015ec0d5a"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "3qzqe3e5uwus.testgameing.workers.dev",
+          "serverName": "9pzn8be4ubis.takin1090gamess.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -511,7 +511,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "10s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "policy": {
