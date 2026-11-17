@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - A L L - 1 - FIX 78 🟢 ",
+  "remarks": "F O R - A L L - 1 - FIX 80 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -331,7 +331,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-a24be4e0a097",
+                "id": "50414e45-4c5f-5a45-5553-ee018014ed16",
                 "encryption": "none"
               }
             ]
@@ -341,12 +341,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "7nzblteyufys.wrfwsf9w4869fewf.workers.dev",
-          "path": "/stream/PANEL_ZEUS/a24be4e0a097"
+          "host": "8lzsucekugqs.game4090takinre.workers.dev",
+          "path": "/stream/PANEL_ZEUS/ee018014ed16"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7nzblteyufys.wrfwsf9w4869fewf.workers.dev",
+          "serverName": "8lzsucekugqs.game4090takinre.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -374,7 +374,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-971015ec0d5a",
+                "id": "50414e45-4c5f-5a45-5553-d8c141c9f409",
                 "encryption": "none"
               }
             ]
@@ -384,12 +384,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "9pzn8be4ubis.takin1090gamess.workers.dev",
-          "path": "/stream/PANEL_ZEUS/971015ec0d5a"
+          "host": "u6z7theyuf5s.tak100gamewwge.workers.dev",
+          "path": "/stream/PANEL_ZEUS/d8c141c9f409"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "9pzn8be4ubis.takin1090gamess.workers.dev",
+          "serverName": "u6z7theyuf5s.tak100gamewwge.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
