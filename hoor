@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 1 - FIX 93 🟢 ",
+  "remarks": "H O O R - 1 - FIX 95 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -331,7 +331,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-40a64c75c2d7",
+                "id": "50414e45-4c5f-5a45-5553-1d835877c069",
                 "encryption": "none"
               }
             ]
@@ -341,12 +341,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "28zappefu09s.drfwnfweel1.workers.dev",
-          "path": "/stream/PANEL_ZEUS/40a64c75c2d7"
+          "host": "a6zvu8ehufzs.tintingamef.workers.dev",
+          "path": "/stream/PANEL_ZEUS/1d835877c069"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "28zappefu09s.drfwnfweel1.workers.dev",
+          "serverName": "a6zvu8ehufzs.tintingamef.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
@@ -374,7 +374,7 @@
             "port": 443,
             "users": [
               {
-                "id": "50414e45-4c5f-5a45-5553-e6561f48e7cc",
+                "id": "50414e45-4c5f-5a45-5553-638f2a287797",
                 "encryption": "none"
               }
             ]
@@ -384,12 +384,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "f3z1buerubds.hooora200e.workers.dev",
-          "path": "/stream/PANEL_ZEUS/e6561f48e7cc"
+          "host": "opz1njerudes.maddewv.workers.dev",
+          "path": "/stream/PANEL_ZEUS/638f2a287797"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "f3z1buerubds.hooora200e.workers.dev",
+          "serverName": "opz1njerudes.maddewv.workers.dev",
           "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
