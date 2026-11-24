@@ -1,5 +1,5 @@
 {
-  "remarks": "H O O R - 1 - FIX 96 🟢 ",
+  "remarks": "H O O R - 1 - FIX 97 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -112,7 +112,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:d1::f79f:55d5:4481:d0e8]",
+            "address": "2606:4700::7a:ea6d:81f5:e599",
             "port": 443,
             "users": [
               {
@@ -241,7 +241,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:d1::6670:f3e1:ed3a:5e9e]",
+            "address": "[2606:4700:d1::c783:a3f4:88af:5b0c]",
             "port": 443,
             "users": [
               {
