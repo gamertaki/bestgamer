@@ -1,5 +1,5 @@
 {
-  "remarks": "F O R - Y O U - 1 - FIX 103 🟢 ",
+  "remarks": "F O R - Y O U - 1 - FIX 104 🟢 ",
   "version": {
     "min": "26.2.6"
   },
@@ -284,7 +284,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.243.112.197",
+            "address": "188.253.25.212",
             "port": 443,
             "users": [
               {
